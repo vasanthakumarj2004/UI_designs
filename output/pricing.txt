@@ -1,0 +1,87 @@
+URL: https://docsynecx.com/pricing
+TITLE: AP Automation Software Pricing Plans | Docsynecx
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+META KEYWORDS: Business automation pricing
+============================================================
+
+# Simple, Transparent Pricing for Business Automation
+Automate invoice processing, reduce manual work, and integrate seamlessly with your accounting systems.
+Start with a free trial. Upgrade when you see the value.
+
+### Starter
+Try real automation with your data
+  • Invoice data extraction
+  • GST & basic validation
+  • Limited Tally integration
+  • 20 credits
+  • 1 company
+  • 1 user
+  • No bulk processing
+  • No advanced rules
+  • Limited automation
+
+### Professional
+Built for growing businesses
+  • Everything in Starter
+  • Bulk invoice processing
+  • Multi-Line Item Extraction
+  • Advanced validation
+  • Full Tally integration
+  • Multi-company support
+  • Multiple users
+
+### Enterprise
+Custom automation for large-scale operations
+  • Everything in Professional
+  • Custom workflows & approvals
+  • Dedicated onboarding
+  • SLA & priority support
+  • Custom ERP integrations
+
+## Advanced Automation Modules
+These advanced modules are available exclusively under the Enterprise plan.
+
+### Logistics & Supply Chain
+CargoWise-ready document automation
+
+#### Custom Pricing
+Based on document volume & integrations
+  • BL, AWB, Packing List & Invoice extraction
+  • CargoWise direct data sync
+  • Freight & shipment workflow automation
+  • Multi-party document handling
+  • High-volume batch processing
+  • Dedicated logistics onboarding
+
+### Workflows & Approvals
+Multi-level approval automation
+
+#### Custom Pricing
+Based on users & workflow complexity
+  • Configurable approval hierarchies
+  • Real-time approval tracking
+  • Complete audit logs
+  • Role-based access control
+  • Custom workflow builder
+  • SLA & priority support
+
+## Choose the Right Plan for Your Business
+Compare all features across our plans and find the perfect solution for your document processing needs.
+Feature | Starter | Professional | Enterprise
+Invoice Processing | Limited | High Volume | Unlimited
+Credits | Flexible | Flexible | Custom
+Accuracy | Standard | High | Premium
+Tally Integration | Limited | Full | Full
+Bulk Processing |  |  | 
+Multi-Line Item Extraction |  |  | 
+Users | 1 | Multiple | Unlimited
+Companies | 1 | Multiple | Multi-entity
+Cloud Archive |  |  | 
+Workflow Automation |  |  | 
+Logistics Integration |  |  | 
+Invoice Collection | Portal | Portal+Whatsapp | Portal+Whatsapp+Mail
+Support | Email | Priority | Dedicated
+All plans include a 7-day free trial . No credit card required.
+
+## Start your free trial today
+No risk. Immediate ROI. Join hundreds of businesses automating their invoice processing.

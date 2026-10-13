@@ -1,0 +1,77 @@
+URL: https://docsynecx.com/privacy-policy
+TITLE: Privacy Policy | Docsynecx
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+============================================================
+
+# Privacy Policy
+
+## The Short Version
+Your data belongs to you—not us. We do not resell user data or information extracted from uploaded documents. We do, however, use this data to improve our services. Data security is our top priority, and we employ advanced measures to ensure your information is protected.
+
+## The Long Version
+Docsynecx ("Docsynecx", "we", or "Service Provider") is committed to protecting the Personal Data of its Clients. This Privacy Policy is part of the Terms of Service. Any term defined in the Terms of Service applies here.
+By using or registering with Docsynecx through https://docsynecx.com or any of its subdomains, the Client agrees to comply with this Privacy Policy. We may update this policy from time to time without prior notice. Updates will be published on our website or within our application.
+
+## 1. Collected Data
+When registering or using Docsynecx, we may voluntarily collect Personal Data for service performance. This may include:
+  • Full name
+  • Email address
+  • Phone number
+  • Company name
+  • Billing address
+  • Tax identification (e.g., GST)
+We may also collect behavioral and preference data through website or application interactions (pages visited, surveys answered, etc.).
+When using Docsynecx, users typically upload documents (PDFs, scans, etc.) via the app, email, API, or third-party integrations. These documents (Imported Documents) are processed to extract structured information (Parsed Content).
+
+## 2. Usage of Data
+We collect data to improve user experience and service functionality. Data is retained as necessary unless the user requests deletion via privacy@docsynecx.com . Upon such request, data will be deleted within 30 days with confirmation.
+We do not sell Personal Data, Imported Documents, or Parsed Content. Documents may be retained for AI training and product development and will be deleted post-use. This processing is based on legitimate interest under applicable data protection laws.
+Sensitive data (e.g., racial, political, religious, health-related) must not be uploaded or processed through Docsynecx.
+  • Roles: Data Controller: Personal Data, Data Processor: Imported Documents and Parsed Content
+Data may be used for:
+  • Internal records
+  • Product/service improvement
+  • Promotional communications (with consent)
+  • Automated decisions or profiling to improve experience
+
+## 3. Third-Party Services
+We may use external service providers for operations (e.g., analytics, hosting). These third parties may access limited Personal Data solely for operational purposes, not for marketing, unless otherwise specified or consented to. Clients may request integrations with third-party services (e.g., Google Sheets, Salesforce, Zapier). Responsibility for data transmission lies with the Client. If required by law or court order, Docsynecx may disclose Personal Data to authorities.
+
+## 4. External Links
+Docsynecx may link to third-party websites. We are not responsible for their content or privacy practices. Users should read those sites privacy policies before use.
+
+## 5. User Data Control
+  • Opt out of marketing
+  • Request a copy of their data
+  • Withdraw consent at any time
+  • Request complete data deletion
+
+## 6. Security
+We use industry-standard SSL encryption and secure infrastructure (Amazon Web Services, Google Cloud). Backups are created daily, and only authorized employees can access data. Passwords are stored as encrypted hash keys, not visible to staff. Clients are responsible for maintaining password confidentiality. Transmission of data via the internet carries inherent risks; we take extensive measures but cannot guarantee absolute security.
+
+## 7. Cookies
+We use cookies for performance, personalization, and advertising. Consent is required upon first visit. Disabling cookies may impact service functionality.
+Types of Cookies:
+  • Strictly Necessary (e.g., login authentication)
+  • Functionality (e.g., language preferences)
+  • Analytics (e.g., page visits, load speed)
+  • Advertising (e.g., ad impressions, retargeting)
+Tools used: Cloudflare, Google Analytics, Hotjar, Facebook Pixel, LinkedIn Pixel, Mixpanel, HubSpot, Apollo, Chameleon.
+
+## 8. Communications
+Docsynecx may contact users for operational or promotional reasons. Promotional emails will relate to the user's professional activity.
+
+## 9. General Terms
+  • Rights under this policy cannot be transferred without consent.
+  • Invalid provisions will not affect the remainder of the policy.
+  • Delay or inaction does not imply waiver of any right.
+  • Goverened by the laws of India. Disputes will be resolved under the jurisdiction of Indian courts.
+
+## 10. Business Changes
+In case of acquisition, merger, or sale, user data may be transferred to new owners under the terms of this policy. We will take steps to ensure privacy is protected.
+
+## 11. Policy Changes
+Docsynecx may amend this Privacy Policy as required by law or operational necessity. Updates will be posted on our website. Continued use of the platform implies acceptance of the updated terms.
+
+## Contact
+For concerns or questions about your data, contact: privacy@docsynecx.com

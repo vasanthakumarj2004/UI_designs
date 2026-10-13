@@ -1,0 +1,61 @@
+URL: https://docsynecx.com/logistics-trade
+TITLE: AI Logistics Workflow Automation Software for Modern Supply Chains | Docsynecx
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+META KEYWORDS: AI logistics automation, logistics document automation, freight forwarder automation, shipment data sync, customs entry automation, AP reconciliation, CargoWise automation
+============================================================
+
+# AI Logistics Automation for Freight Forwarders
+Automate freight forwarding operations with AI-powered document processing for shipment creation, customs documentation, AP reconciliation, and Cargowise integration.
+
+## Documents In. Shipments Out. Less Busywork.
+Start with one workflow or automate them all. Each module handles the full document-to-data pipeline independently.
+
+### Create & update shipments instantly
+Automate shipment creation and updates from incoming logistics documents. Extract and validate critical shipment data, apply business rules, and synchronize accurate records directly with your TMS.
+
+### Pre-fill customs forms automatically
+Streamline customs data entry by converting source documents into structured declaration data. Validate line-level details, enforce compliance rules, and transfer verified entries directly to your customs system.
+
+### Reconcile AP invoices in real time
+Automate AP reconciliation by extracting invoice charges, mapping them to TMS codes, and validating them against expected costs. Surface discrepancies early and keep financial records aligned with shipment activity.
+
+## See the Difference Logistics Document Automation Makes
+Select a workflow below to see how your team's day changes with automation.
+Before
+The Manual Way
+  • Manually open each email to find BOLs & invoices
+  • Re-key shipper, consignee, ports, and container data
+  • Cross-check packing lists against the bill of lading
+  • Create shipment job in TMS — field by field
+  • Chase missing documents before filing
+After
+The Docsynecx Way
+  • Documents auto-collected from email & shared drives
+  • AI extracts all key fields with high accuracy
+  • Documents matched & cross-validated automatically
+  • TMS shipment job created or updated 24/7
+  • Exceptions flagged — team only handles edge cases
+
+## From Logistics Document Intake to TMS Sync — In 4 Automated Steps
+The same intelligent pipeline powers all three automation modules.
+
+### Collect
+Auto-gather documents from email, shared drives, portals, and APIs.
+
+### Extract
+AI reads and structures every key field — accurately, at scale.
+
+### Validate
+Cross-check data across documents. Flag issues before they cause delays.
+
+### Sync
+Push clean, validated records into your TMS or customs system — automatically.
+
+## Integration into your TMS
+Docsynecx posts approved work into CargoWise One and other leading TMS platforms as part of your standard workflow, through native APIs, not middleware, CSV imports, or flat files.
+More TMS integrations are on the way. Tell us what you run.
+
+## Explore Our Logistics Modules
+
+## Stop retyping data. Start scaling operations.
+One platform collects, extracts, validates, and syncs your logistics data — automatically, 24/7.

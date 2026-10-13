@@ -1,0 +1,50 @@
+URL: https://docsynecx.com/logistics-trade/custom-declarations
+TITLE: Customs Documentation Automation for Freight Forwarders | Docsynecx
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+META KEYWORDS: Logistics document automation, Logistics automation, Freight forwarding automation, Shipment document processing, AI document processing, CargoWise integration, Supply chain automation, Freight forwarding software
+============================================================
+
+# Customs Entry Automation Zero Manual Retyping
+From document intake to syncing entry data with your customs software — automatically, so your team reviews clean data instead of retyping it.
+Collect customs documents → Sync to customs system
+
+## Customs entry prep is still a costly manual bottleneck
+Your team is retyping the same data from documents into your customs software — every single entry.
+
+## From Document intake to customs entry sync — in 4 steps
+
+### Collect
+Gathers key customs documents — commercial invoices, packing lists, bills of lading — from email, shared drives, and APIs.
+
+### Extract
+AI extracts and structures the data needed for customs entries, including line‑level detail from commercial invoices.
+
+### Validate
+Matches related documents to the correct entry, checks for missing or inconsistent data, and alerts users before issues cause clearance delays.
+
+### Sync
+Automatically creates or updates customs entry records in your system for your team to review — clean data, ready to file.
+
+## Precision automation built for customs teams
+
+### Features
+  • Line-level extraction — From commercial invoices for accurate entry data — every item, every charge.
+  • Multi-source intake — From email, shared drives, and connected APIs, all centralised.
+  • Entry-level matching — Every document tied to the correct customs entry automatically.
+  • Early issue flagging — Missing data caught before it causes customs delays or penalties.
+  • Review-ready records — Created or updated automatically in your customs software.
+  • Cross-document validation — Invoice, packing list, and BOL data cross-checked automatically.
+
+### Why It Matters
+10×
+Faster document processing, from upload to output
+80%+
+Less manual data entry across document workflows
+24/7 Automation
+Keep workflows moving around the clock
+∞ Scalability
+Process increasing volumes without operational bottlenecks
+Explore Other Modules
+
+## Stop reading documents. Start reading results.
+One platform collects, extracts, validates, and syncs your customs entry data — automatically, 24/7.

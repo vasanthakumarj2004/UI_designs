@@ -1,0 +1,33 @@
+URL: https://docsynecx.com/about
+TITLE: About Docsynecx | AI-Powered Document Automation
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+META KEYWORDS: Docsynecx
+============================================================
+
+# The Story Behind Docsynecx Innovation
+Transforming document processing with intelligent automation
+Docsynecx is an enterprise-grade Document AI platform built by SynecxAI Labs to help organizations unlock the value hidden in their documents.
+We specialize in transforming unstructured and semi-structured documents—such as invoices, forms, contracts, and reports—into accurate, structured, and actionable data using advanced machine learning and artificial intelligence. Our platform enables businesses to automate document-intensive workflows, improve operational efficiency, ensure compliance, and gain real-time business insights.
+Designed for scale, security, and enterprise reliability, Docsynecx integrates seamlessly with ERP, accounting, and enterprise systems, empowering finance, operations, and compliance teams to move faster with confidence.
+
+### Why Choose Docsynecx?
+
+### Our Mission
+To simplify and automate complex document workflows through AI-powered intelligence — enabling organizations to focus on strategic work while we handle the data.
+
+### Our Vision
+To become the global standard in document automation by making enterprise-grade IDP accessible, intelligent, and scalable for every business.
+
+## The core values and principles that drive us
+
+### Accuracy-first approach
+Our AI models are trained for maximum accuracy. We continuously improve our extraction algorithms to ensure your data is captured correctly, every time.
+
+### Focus on innovation
+Technology is our craft and we back it up with continuous R&D investments. We stay ahead of the curve to bring you the latest in document AI.
+
+### Customer-first philosophy
+It's our customers' trust and success that drives us. No matter the size of your business, we're here to help you eliminate manual document processing.
+
+## Ready to Automate Your Document Workflow?
+Experience the power of our IDP solution for seamless document processing and intelligent data extraction.

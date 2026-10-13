@@ -1,0 +1,50 @@
+URL: https://docsynecx.com/logistics-trade/shipments
+TITLE: Shipment Automation for Freight Forwarders | Docsynecx
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+META KEYWORDS: Logistics document automation, Logistics automation, Freight forwarding automation, Shipment document processing, AI document processing, CargoWise integration, Supply chain automation, Freight forwarding software
+============================================================
+
+# Shipment Automation. Fully Automated
+Free your team from endless doc checks and data entry. We extract, validate, and sync shipment data 24/7 — so your team can focus on serving customers, not copy‑pasting.
+Collect shipment documents → Sync to TMS
+
+## Shipment document processing is still painfully manual
+Every shipment generates a paper trail your team is hand-processing today.
+
+## From Document intake to shipment creation — in 4 steps
+
+### Collect
+Brings shipping documents together from email, shared drives, APIs, and other business systems—all in one place.
+
+### Extract
+AI extracts and structures key shipment data fields with precision — container numbers, parties, dates, weights, and more.
+
+### Validate
+Matches related documents to the correct shipment, checks for missing or inconsistent data, and alerts users before issues cause delays.
+
+### Sync
+Creates and updates shipment records in your TMS with validated data — automatically and accurately, around the clock.
+
+## Everything you need. Nothing you don't.
+
+### Features
+  • Every shipping document, recognized — BOLs, commercial invoices, arrival notices, packing lists, and more.
+  • Multi-source intake — From email, shared drives, and connected APIs — all centralised.
+  • Precision AI extraction — Key shipment data fields captured with high accuracy.
+  • Cross-document matching — Every file tied to the correct shipment automatically.
+  • Early issue flagging — Missing or inconsistent data caught before it causes delays.
+  • Automatic TMS sync — Records created and updated with no manual entry required.
+
+### Why It Matters
+10×
+Faster document processing, from upload to output
+80%+
+Less manual data entry across document workflows
+24/7 Automation
+Keep workflows moving around the clock
+∞ Scalability
+Process increasing volumes without operational bottlenecks
+Explore Other Modules
+
+## Stop retyping shipment data. Start shipping faster.
+One platform collects, extracts, validates, and syncs your shipment data — 24/7, automatically.

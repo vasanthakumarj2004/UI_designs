@@ -1,0 +1,23 @@
+SITEMAP
+============================================================
+OK      https://docsynecx.com/  →  landing_page.txt
+OK      https://docsynecx.com/solutions  →  solutions.txt
+OK      https://docsynecx.com/pricing  →  pricing.txt
+OK      https://docsynecx.com/blog  →  blog.txt
+OK      https://docsynecx.com/request-demo  →  request-demo.txt
+OK      https://docsynecx.com/invoice-processing  →  invoice-processing.txt
+OK      https://docsynecx.com/logistics-trade  →  logistics-trade.txt
+OK      https://docsynecx.com/logistics-trade/shipments  →  logistics-trade_shipments.txt
+OK      https://docsynecx.com/logistics-trade/custom-declarations  →  logistics-trade_custom-declarations.txt
+OK      https://docsynecx.com/logistics-trade/ap-reconciliation  →  logistics-trade_ap-reconciliation.txt
+OK      https://docsynecx.com/workflows  →  workflows.txt
+OK      https://docsynecx.com/integration/invoice-to-tally  →  integration_invoice-to-tally.txt
+OK      https://docsynecx.com/integration/zoho-books  →  integration_zoho-books.txt
+OK      https://docsynecx.com/integration/cargowise  →  integration_cargowise.txt
+OK      https://docsynecx.com/about  →  about.txt
+OK      https://docsynecx.com/enterprise  →  enterprise.txt
+OK      https://docsynecx.com/partners  →  partners.txt
+OK      https://docsynecx.com/contact  →  contact.txt
+OK      https://docsynecx.com/privacy-policy  →  privacy-policy.txt
+OK      https://docsynecx.com/terms-of-service  →  terms-of-service.txt
+OK      https://docsynecx.com/help  →  help.txt

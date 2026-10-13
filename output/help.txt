@@ -1,0 +1,43 @@
+URL: https://docsynecx.com/help
+TITLE: Docsynecx Help Center | Support & Guidance
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+META KEYWORDS: AI Workflow Automation Platform, AP Automation Software, Invoice OCR Software, Automated Invoice Data Capture, AI Automation for Enterprises, API Integrated Invoice Automation Software, AI Document Extraction, Sales Order Automation, Digital Document Processing, AI Accounting Automation, Workflow Automation Software, Smart Invoice Management, Intelligent OCR Solutions, Cloud Based AP Automation, Invoice Recognition Software, AI Automation Platform for Businesses, Intelligent Data Processing Services, Invoice Automation Platform, AI Automation in Accounting for Businesses
+============================================================
+
+# Welcome to Docsynecx
+Docsynecx is an AI-powered document processing platform that automates invoice extraction, validation, and accounting integration.
+It helps businesses process invoices faster and reduces manual data entry by automatically extracting invoice information and syncing it with accounting systems such as Tally .
+
+## Key Features
+Docsynecx provides powerful automation features for invoice processing:
+  • AI-Based Invoice Extraction – Automatically extract data from invoices.
+  • Item-Level and Accounting-Level Processing – Support for item invoices and ledger-based invoices.
+  • Automatic Validation – Detect mismatches in tax, totals, or round-off values.
+  • Middleware Integration – Seamless connection with accounting systems like Tally.
+  • Automated Voucher Creation – Convert invoices directly into accounting vouchers.
+
+## Free Trial Credits
+New users receive 20 free credits to explore and test the platform before purchasing a subscription plan.
+These credits can be used for:
+  • Uploading invoices
+  • Processing documents
+  • Testing extraction features
+  • Verifying Tally integration
+
+## Typical Workflow
+The standard invoice processing workflow in Docsynecx is:
+  • Upload Invoice
+  • Automatic Data Extraction
+  • Review & Validate Invoice
+  • Detect Mismatches
+  • Save or Sync to Tally
+  • Store Documents in Cloud Archive
+
+## Get Started
+Use the sidebar to navigate through the documentation and learn how to:
+  • Create your account
+  • Install middleware
+  • Connect Tally
+  • Upload invoices
+  • Review extracted data
+  • Sync invoices to accounting systems

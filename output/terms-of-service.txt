@@ -1,0 +1,176 @@
+URL: https://docsynecx.com/terms-of-service
+TITLE: Terms of Service | Docsynecx
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+============================================================
+
+# Terms of Service
+Effective Date: 14-05-2025
+Company Name: SynecxAI Labs Pvt Ltd
+Registered Address: S.F.NO 497, Thadagam Main Road, Kanuvai, Coimbatore, India-641108
+Contact: support@docsynecx.com
+Welcome to Docsynecx, a document intelligence platform operated by Synecx AI Labs Pvt Ltd., a private limited company registered in India. By signing up on our website or using our services, you (the "Client") acknowledge that you have read, understood, and agree to these Terms of Service.
+We recommend saving a copy of these Terms for your reference. These Terms may be updated periodically, and continued use of the Service indicates acceptance of any updated terms.
+
+## 1. Definitions
+  • Account: Your registered profile with Docsynecx that grants access to the Service.
+  • Agreement: These Terms of Service, Privacy Policy, Subscribed Plan, and any additional agreements related to the Service.
+  • Client: The individual or organization entering into this Agreement with Docsynecx.
+  • Content: Any data (personal or non-personal) submitted and processed through the Service.
+  • Documentation: All guides and knowledge base articles available on docsynecx.com describing how the Service works.
+  • Document Parser: Algorithms used to extract data from uploaded documents.
+  • Docsynecx Platform: Our proprietary SaaS platform and associated applications.
+  • External API: Web services through which Clients may interact with Docsynecx data outputs.
+  • Imported Document: Documents uploaded by Clients for processing.
+  • Parsing Rules: Instructions created by the Client to define what data to extract.
+  • Parsed Content: Output data extracted based on the Parsing Rules.
+  • Personal Data: Information relating to an identifiable individual.
+  • Processed Document: Documents submitted through the Account for parsing.
+  • Service: Access to and use of the Docsynecx Platform, including any related features or APIs.
+  • Subscribed Plan: The pricing tier selected by the Client, including both monthly and annual billing options.
+
+## 2. Purpose of the Agreement
+The purpose of this Agreement is to define the conditions under which Synecx AI Labs Pvt Ltd (Docsynecx) provides the Client with access to its document intelligence platform (the Service). Upon agreeing to these Terms, the Client is granted a non-exclusive, non-transferable right to use the Docsynecx Platform in a Software-as-a-Service (SaaS) model. In return, the Client agrees to pay the applicable fees and comply with the obligations outlined in this Agreement.
+
+## 3. Service Access and Support
+
+### 3.1. Description
+The Docsynecx Platform is a hosted, cloud-based document processing system that enables Clients to extract structured data ("Parsed Content") from uploaded files ("Processed Documents") using customizable rules ("Parsing Rules"). Parsed Content can be downloaded directly or sent to integrated systems via External APIs.
+Important: Docsynecx does not offer persistent data storage. It is solely the Client's responsibility to back up all Processed Documents, Content, and Parsed Content. Docsynecx shall not be held liable for any loss of data.
+
+### 3.2. Access
+Clients access the Service via a secure, individual Account. Account credentials must not be shared; each Account is assigned to a single user. The Client assumes full responsibility for all actions performed through their Account.
+To register, the Client must provide accurate, up-to-date information, including their full legal name, a valid email address, and any additional details required during signup. Based on the selected Subscribed Plan, Clients may configure one or more Document Parsers within their Account.
+
+### 3.3. Support
+Docsynecx aims to provide 24/7 access to the Service throughout the term of this Agreement, subject to routine maintenance and unforeseen outages.
+Customer support is available in English via email at support@docsynecx.com . Clients may also consult helpful resources and self-service guides at docsynecx.com/help .
+
+## 4. Billing
+
+### 4.1. Pricing
+Docsynecx offers monthly and annual subscription plans, with pricing outlined on the official Pricing page. Except where otherwise stated, all prices are listed in U.S. dollars or euros, exclusive of applicable taxes, duties, or levies. Clients are responsible for any such taxes applicable in their jurisdiction.
+
+### 4.2. Free Trials and Upgrade Plan
+Clients may sign up for a 14-day free trial, which grants limited access to the Service at no cost. Only one free trial is permitted per Client. At any point during the trial, the Client may upgrade to a paid plan (a "Subscribed Plan"), which will take effect immediately and be charged accordingly. If the Client upgrades or downgrades their Subscribed Plan, the new pricing will take effect the day following the change. The billing cycle will remain the same, and any adjustments will be reflected on a prorated basis. Downgrading to the free plan or modifying a Subscribed Plan does not entitle the Client to a refund.
+
+### 4.3. Payment
+Payment for all Subscribed Plans must be made in advance via credit card, debit card or UPI using one of the accepted providers: Visa, Mastercard, or American Express. The Client must ensure valid payment details are provided and maintained throughout the term of the Agreement.
+The Client is billed either monthly or annually, based on the selected plan. Fees are non-refundable, regardless of actual usage. Service pauses or cancellations during an active billing period do not entitle the Client to refunds, extensions, or credits. Docsynecx does not issue refunds for unused time, mid-cycle plan changes, or inactive accounts.
+
+### 4.4. Invoicing
+For each successful transaction, Docsynecx will issue an email receipt. The Client may also access and download a PDF invoice from the "Settings" section of their Account.
+
+### 4.5. Service of Changes and Pricing
+Docsynecx reserves the right to modify, update, suspend, or discontinue the Service (in whole or in part), temporarily or permanently, at any time and without prior notice. Pricing for all Docsynecx Services—including monthly and annual Subscribed Plans— is subject to change. Any pricing updates will be communicated by publishing the changes on the official Docsynecx website (docsynecx.com), within the Docsynecx platform, or through the Service interface.
+Changes in pricing will not affect any active Subscribed Plans. Updated rates will only apply to new subscriptions or renewals made after the pricing changes take effect.
+
+### 4.6. Billing Communications
+You agree that Docsynex may contact you at any time by email, push notifications, or other method with information relevant to your subscription, billing, and use of the Service.
+
+## 5. Terms
+This Agreement becomes effective upon the Client's creation of an Account on the Docsynecx platform, including a free trial Account, and remains in effect until terminated by either Party.
+The minimum commitment period is:
+  • One (1) month for a monthly Subscribed Plan, and
+  • One (1) year for an annual Subscribed Plan.
+All Subscribed Plans automatically renew for successive terms of the same duration unless either Party provides notice of cancellation. To avoid renewal, cancellation must be made via email at least thirty (30) working days prior to the end of the current subscription term. Cancellation emails must be sent:
+  • By the Client: using the registered email address provided in their Account.
+  • By Docsynecx: to the Client's registered email address or via support@docsynecx.com .
+It is the Client's sole responsibility to manage their renewal timelines. No refunds will be issued for amounts paid in advance, regardless of usage.
+Upon termination of the Agreement, all Content and Parsed Data will be automatically deleted from the Service. The Client acknowledges that once deleted, this data cannot be recovered.
+
+## 6. Responsibilities and Commitments of Docsynecx
+Docsynecx commits to making commercially reasonable efforts to deliver uninterrupted Service, provided that:
+  • The Client has paid all applicable fees in full; and
+  • Interruptions, suspensions, or discontinuations caused by maintenance, third-party systems, or events outside Docsynecx's control are not grounds for liability.
+For scheduled maintenance, Docsynecx will make an effort to notify Clients in advance via email, the official docsynecx.com website, or within the application interface.
+Temporary service disruptions—regardless of cause or duration—do not entitle the Client to any compensation or indemnity.
+Any services not explicitly included in this Agreement—such as onboarding, training, or custom support—will require a separate agreement and may incur additional charges based on Docsynecx's prevailing rates.
+
+## 7. Responsibilities and Commitments of the Client
+By entering into this Agreement on behalf of a company or other legal entity, the Client confirms that they have the authority to legally bind such entity and its affiliates. The Client must be a natural or legal person acting in a professional capacity—automated entities, bots, or other non-human users are strictly prohibited.
+The Client agrees to:
+  • Acquire and maintain all necessary hardware, software, and internet connectivity required to access and use the Docsynecx Service. All related costs are the sole responsibility of the Client.
+  • Ensure appropriate training for the use of the Service and familiarity with internet-based technologies.
+  • Maintain the confidentiality and security of login credentials for the Account.
+  • Provide accurate information during registration and throughout the term of this Agreement and promptly update any changes.
+  • Pay all applicable fees in accordance with this Agreement.
+  • Respect Docsynecx's intellectual property rights and refrain from any infringement or misuse.
+  • Avoid any use of the Service that could impair its security, functionality, or availability.
+  • Not alter, hack, or attempt to simulate the Service or associate unrelated websites as being affiliated with Docsynecx.
+  • Not upload or transmit unsolicited messages, spam, or harmful content.
+  • Not copy, sell, resell, or exploit the Service without Docsynecx's prior written consent.
+  • Not transfer or store data through the Service that is: Harmful, including viruses or malicious code; Illegal, immoral (e.g., pornographic or violent content); Infringing upon third-party rights, including intellectual property or privacy rights.
+The Client assumes full responsibility for any damages such data or conduct may cause to Docsynecx, third parties, or the Service. The Client agrees to indemnify and hold Docsynecx harmless from any claims arising from such data or misuse.
+While this Agreement prohibits abusive or illegal content, the Client acknowledges that Docsynecx cannot be held responsible for any Processed Documents or Parsed Content uploaded or generated via the Service. Use of the Service is strictly at the Client's own risk.
+Docsynecx reserves the right to remove any Processed Documents, Content, Parsed Content, or entire Accounts containing or linked to data it deems, in its sole discretion, to be unlawful, offensive, threatening, defamatory, pornographic, obscene, or otherwise in violation of any law, third-party rights, or the terms of this Agreement.
+
+## 8. Liability
+The Service is provided "as is" and "as available" without any warranties—express or implied. Docsynecx makes no guarantees regarding the Client's organizational outcomes from the use of the Service. The Client acknowledges that the Service is a support tool, not a business decision-maker or process replacement.
+Use of the Service is at the Client's sole risk. The Client understands and agrees that:
+  • Technical processing and transmission may be unencrypted and involve transfers across various networks and may be adapted to meet the technical requirements of such networks or devices.
+  • Docsynecx does not warrant that: The Service will meet the Client's specific needs; The Service will be uninterrupted, secure, or error-free; Results obtained through the Service will be accurate or reliable; Any content obtained will meet the Client's expectations; Any defects in the Service will be corrected.
+By default, all Processed Documents, Content, and Parsed Content are retained for a maximum of 30 calendar days and are not stored permanently. It is the Client's sole responsibility to store and back up their data.
+If the Client exceeds the usage limits of their Subscribed Plan, Docsynecx may suspend the Account until limits are reset or upgraded. Docsynecx is not liable for any loss resulting from such suspension.
+The Client also understands and accepts that:
+  • Docsynecx relies on third-party hosting and service providers to deliver the necessary infrastructure.
+  • While Docsynecx facilitates API integrations, the use of any External APIs is solely the Client's responsibility, including compliance with any separate agreements those APIs may require.
+Docsynecx disclaims all liability for:
+  • Service downgrades;
+  • Loss of data, features, or access resulting from Client actions;
+  • Changes in pricing or discontinuation of the Service;
+  • Damages resulting from Client's failure to maintain security protocols;
+  • The Client's configuration and application of Parsing Rules;
+  • Any use or misuse of Parsed Content by the Client.
+The Client agrees that Docsynecx shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including—but not limited to—loss of profits, goodwill, data, or other intangible losses, even if advised of the possibility of such damages. This includes, but is not limited to, damages arising from:
+  • Use or inability to use the Service;
+  • Procurement of substitute services;
+  • Unauthorized access to or alteration of data;
+  • Actions of any third party on the Service;
+  • Any other matter related to the Service.
+Docsynecx's total liability under this Agreement is strictly limited to the amount paid by the Client for the current Subscribed Plan.
+
+## 9. Termination for Breach
+Breach(es) of any of the terms and conditions of the Agreement by the Client will result in the termination of the Agreement and the closing of the Client's Account. Should the Client fail to remedy the said breach within seven (7) days from the suspension of their access to the Service, Docsynecx shall be fully entitled to terminate the Agreement with immediate effect and without prior notice. From the termination date, the Client will no longer be able to use the Service. The Client's Content and the Parsed Content relating to the Client's Account will be deleted without the Client being entitled to any compensation. The Client shall be solely responsible for the consequences of the termination of the Agreement, in particular in terms of continuity of its internal management and commercial activities.
+No amount received in advance by Docsynecx for the Subscribed Plan will be refunded and the Client shall not be entitled to any compensation whatsoever.
+Suspension of the Service and/or termination of this Agreement shall not prevent or otherwise impede the claim(s) Docsynecx may present as a result of the Client's breach(es).
+
+## 10. Intellectual Property Rights
+
+### 10.1. Docsynecx Ownership and Commitments
+All intellectual property rights related to the Docsynecx platform—including but not limited to its software, features, design elements, and all content made available on the Docsynecx website (docsynecx.com) or within the Docsynecx application—remain the exclusive property of Docsynecx.
+Docsynecx warrants that it has developed the Docsynecx platform and holds all necessary intellectual property rights to the platform and all components used to deliver the service.
+Docsynecx does not claim any ownership over the documents or data that are uploaded, processed, or generated by the Client through the platform (Processed Documents and Content). These materials remain the sole property of the Client.
+
+### 10.2. Client Ownership and Commitments
+The Client retains full ownership of all Processed Documents, Content, and any Parsed Output generated through the use of the Docsynecx platform.
+The Client agrees not to engage in any activity that could infringe, impair, or otherwise adversely affect Docsynecx's intellectual property rights. This includes, but is not limited to, any misuse of the Docsynecx platform, its proprietary software, branding, trademarks, or logos.
+The Client shall indemnify and hold Docsynecx harmless from any third-party claims, demands, suits, or proceedings that allege the Client's Content, or the Client's use of the service in violation of this Agreement, infringes upon third-party intellectual property rights or violates applicable laws or regulations.
+This indemnity includes covering any damages awarded, and reasonable legal fees (including attorney's fees), provided that:
+  • Docsynecx promptly notifies the Client in writing of such claim;
+  • Docsynecx grants the Client sole control over the defense and settlement of the claim (subject to the condition that any settlement fully and unconditionally releases Docsynecx from liability); and
+  • Docsynecx provides reasonable assistance as needed, at the Client's expense.
+
+## 11. Collected Data
+When registering for and using the Docsynecx platform, Docsynecx collects a limited amount of data from the Client on a voluntary basis. This may include Personal Data and is used solely for the purpose of providing, maintaining, and improving the Docsynecx platform and related services.
+All collected data is handled in accordance with our Privacy Policy, which forms an integral part of this Agreement.
+
+## 12. Privacy
+The Client has the right to access, update, modify, or request the deletion of any personal data held by Docsynecx. Such requests may be submitted via email to: privacy@docsynecx.com .
+For full details on how we process and protect your data, please refer to our Privacy Policy, which is incorporated into this Agreement.
+
+## 15. Confidentiality
+Both Docsynecx and the Client agree to treat as confidential all non-public information disclosed by either party in connection with the Agreement. This includes, but is not limited to, business processes, technical information, documentation, and other proprietary materials.
+This confidentiality obligation does not prevent Docsynecx from referencing the Client's name and the nature of the services provided for marketing and commercial reference purposes.
+
+## 16. Force Majeure
+Docsynecx employs reasonable technical measures to ensure the availability and performance of its platform. However, Docsynecx shall not be held liable for service interruptions resulting from force majeure events, including but not limited to: natural disasters, power outages, network failures, strikes, public telecommunication issues, or internet disruptions beyond Docsynecx's control.
+In such events, the Client waives any right to compensation, indemnification, or claims related to service unavailability.
+
+## 17. Miscellaneous
+Docsynecx may, at its discretion and without prior notice, assign, subcontract, transfer, or delegate any part of this Agreement and its rights or obligations to a third party.
+This Agreement constitutes the complete and exclusive agreement between the parties, superseding any previous communications or agreements relating to its subject matter.
+Failure by either party to enforce any provision of this Agreement shall not be interpreted as a waiver of that party's right to enforce such provision in the future.
+The Client authorizes Docsynecx to publicly reference the Client's name and services provided for commercial purposes, such as marketing or case studies.
+
+## 18. Governing Law and Jurisdiction
+This Agreement shall be governed by and construed in accordance with the laws of India, without regard to any conflict of law provisions. Any disputes arising under or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of India.

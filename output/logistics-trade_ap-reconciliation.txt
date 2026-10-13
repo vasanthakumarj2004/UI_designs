@@ -1,0 +1,50 @@
+URL: https://docsynecx.com/logistics-trade/ap-reconciliation
+TITLE: AP Reconciliation Automation for Freight Forwarders | Docsynecx
+META DESCRIPTION: Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.
+META KEYWORDS: Logistics document automation, Logistics automation, Freight forwarding automation, Shipment document processing, AI document processing, CargoWise integration, Supply chain automation, Freight forwarding software
+============================================================
+
+# AP Reconciliation. Automated End-to-End
+Free your team from line‑by‑line invoice reviews. We reconcile AP invoices 24/7 — so your team can focus on strategic finance, not verifying charges line by line.
+Collect all vendor invoices → Sync clean data to TMS
+
+## AP reconciliation is eating your finance team's time
+Your team is spending hours each week on invoice-to-TMS matching that should take seconds.
+
+## Invoice intake to reconciled TMS data — in 4 steps
+
+### Collect
+Gathers invoices from all sources — email, shared drives, and APIs — automatically, as they arrive.
+
+### Extract
+AI extracts and structures key invoice data — charges, vendors, dates, and totals — with precision.
+
+### Map & Validate
+Matches invoice line items to the correct charge codes and validates each charge against what's expected in your TMS.
+
+### Sync
+Pushes structured, validated invoice data directly into your TMS — clean records, ready for payment approval.
+
+## Built for logistics finance teams who demand accuracy
+
+### Features
+  • Multi-source intake — From email, shared drives, and connected APIs — all centralised.
+  • Precision AI extraction — Charges, vendors, dates, and totals captured accurately from any format.
+  • Automatic charge-code mapping — Every invoice line item mapped to the correct code in your TMS.
+  • Expected-charge validation — Each charge validated against what your TMS shows as expected.
+  • Clean data sync — Structured, validated invoice data pushed directly into your TMS.
+  • Discrepancy alerts — Flag mismatches before they reach payment approval — not after.
+
+### Why It Matters
+10×
+Faster document processing, from upload to output
+80%+
+Less manual data entry across document workflows
+24/7 Automation
+Keep workflows moving around the clock
+∞ Scale
+Process increasing volumes without operational bottlenecks
+Explore Other Modules
+
+## Stop verifying invoices line by line. Start managing at scale.
+One platform collects, extracts, validates, and syncs your AP invoice data — automatically, 24/7.

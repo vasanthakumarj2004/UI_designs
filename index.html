@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AI Document Processing & Automation Platform | Docsynecx</title>
+  <meta name="description" content="Docsynecx is an AI-powered document automation platform that extracts, validates, and processes business documents across finance, accounting, logistics, and operations.">
+  <meta name="keywords" content="AI-Powered Document Processing, AI document automation, AI document processing, accounts payable automation, logistics document automation">
+  <link rel="canonical" href="https://docsynecx.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/tokens.css">
+</head>
+<body>
+<nav>
+  <div class="w">
+    <a class="logo" href="index.html"><img src="images/logo.svg" alt="Docsynecx" class="logo-img" width="130" height="38"></a>
+    <div class="nav-links" id="menu">
+      <div class="dd">
+        <button type="button" aria-expanded="false" aria-haspopup="true">Products</button>
+        <div class="panel">
+          <div>
+            <a href="invoice-processing/index.html">Invoice automation<span class="sub">Extract, validate & post invoices</span></a>
+            <a href="logistics-trade/index.html">Logistics and supply chain<span class="sub">Process BOLs, packing lists & customs</span></a>
+            <a href="workflows/index.html">Workflow and approvals<span class="sub">Multi-level approvals & business rules</span></a>
+          </div>
+          <div>
+            <span class="ph">Integrations &#9656;</span>
+            <a href="integration/invoice-to-tally/index.html">TallyPrime<span class="sub">Direct ledger & voucher posting</span></a>
+            <a href="integration/zoho-books/index.html">Zoho Books<span class="sub">Automated bills & line items</span></a>
+            <a href="integration/cargowise/index.html">CargoWise<span class="sub">Shipments & customs eAdaptor</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="dd">
+        <button type="button" aria-expanded="false" aria-haspopup="true">Solutions</button>
+        <div class="panel">
+          <div>
+            <span class="ph">By Industry</span>
+            <a href="solutions/banking/index.html">Banking & Finance<span class="sub">Statements, KYC & loan documents</span></a>
+            <a href="solutions/logistics/index.html">Logistics & Supply Chain<span class="sub">Air waybills, sea freight & manifests</span></a>
+          </div>
+          <div>
+            <span class="ph">Use Cases</span>
+            <a href="solutions/accounts-payable/index.html">Accounts Payable<span class="sub">2-way/3-way matching & GST validation</span></a>
+            <a href="solutions/index.html">All Solutions<span class="sub">Browse full IDP capabilities</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="dd">
+        <button type="button" aria-expanded="false" aria-haspopup="true">Resources</button>
+        <div class="panel">
+          <div>
+            <span class="ph">Learn</span>
+            <a href="blog/index.html">Blog & Guides<span class="sub">IDP best practices & automation tips</span></a>
+            <a href="help/index.html">Support Docs & FAQ<span class="sub">Setup guides & platform help</span></a>
+          </div>
+          <div>
+            <span class="ph">Company</span>
+            <a href="about/index.html">About us<span class="sub">SynecxAI Labs mission & team</span></a>
+            <a href="enterprise/index.html">Enterprise<span class="sub">High-volume SLAs & compliance</span></a>
+            <a href="partners/index.html">Partner Program<span class="sub">ERP & implementation partners</span></a>
+          </div>
+        </div>
+      </div>
+      <a href="pricing/index.html">Pricing</a>
+    </div>
+    <div class="nav-cta">
+      <a class="login-link" href="https://invoice.docsynecx.com/">Login</a>
+      <a class="demo-pill" href="request-demo/index.html">Book Demo</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">&#9776;</button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" style="min-height:calc(100vh - 68px);display:flex;align-items:center;background:radial-gradient(800px 380px at 85% -10%,var(--lav),transparent 70%);padding:32px 0">
+  <div class="w" style="display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;width:100%">
+    <div>
+      <span class="eyebrow" style="font-size:11px;padding:4px 11px;margin-bottom:12px;letter-spacing:0.06em">Intelligent Document Processing</span>
+      <h1 style="font-size:clamp(28px,3.2vw,42px);line-height:1.18;letter-spacing:-0.018em;margin-bottom:14px">Turn every document into <em style="font-style:normal;color:var(--deep)">validated data</em>, automatically.</h1>
+      <p class="lead" style="font-size:15px;line-height:1.6;max-width:500px;margin-bottom:0">Docsynecx extracts, validates and posts invoices, logistics documents and approvals into Tally, Zoho, SAP and CargoWise, without manual data entry.</p>
+      <div class="cta" style="margin:20px 0 10px;gap:10px">
+        <a class="btn p" style="padding:10px 22px;font-size:14px" href="pricing/index.html">Start free trial</a>
+        <a class="btn" style="padding:10px 22px;font-size:14px" href="request-demo/index.html">Book a demo</a>
+      </div>
+      <div class="fine" style="font-size:12px;opacity:0.8">No credit card required · 7-day free trial · Secure API access included</div>
+    </div>
+    <div class="card" style="padding:18px">
+      <div style="display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--mut);margin-bottom:12px">
+        <b style="color:var(--ink)">Vendor invoice · INV-88213</b>
+        <span class="chip">Validation successful</span>
+      </div>
+      <div style="display:grid;grid-template-columns:.8fr 1.2fr;gap:12px">
+        <div class="paper">
+          <i style="width:55%"></i><i class="hl" style="width:80%"></i><i></i>
+          <i style="width:70%"></i><i class="hl"></i><i style="width:40%"></i>
+          <i></i><i class="hl" style="width:60%"></i><i style="width:75%"></i>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);font-size:13px">
+            <span style="color:var(--mut)">Vendor name</span><b>Synecx Partner Supplier</b>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);font-size:13px">
+            <span style="color:var(--mut)">GSTIN</span><b>29ABCDE1234F1Z5 <small style="color:var(--ok)">✓</small></b>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);font-size:13px">
+            <span style="color:var(--mut)">Invoice date</span><b>12 Oct 2026</b>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid var(--line);font-size:13px">
+            <span style="color:var(--mut)">Line items · Tax</span><b>7 items · 18% GST</b>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:7px 0;font-size:13px">
+            <span style="color:var(--mut)">Total amount</span><b>₹4,82,300.00</b>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;gap:7px;margin-top:12px;flex-wrap:wrap;font-size:12px">
+        <span style="border:1px solid var(--line);border-radius:6px;padding:3px 8px;background:var(--surf)">✓ PO matched</span>
+        <span style="border:1px solid var(--line);border-radius:6px;padding:3px 8px;background:var(--surf)">✓ No duplicate</span>
+        <span style="border:1px solid var(--line);border-radius:6px;padding:3px 8px;background:var(--surf)">→ TallyPrime</span>
+        <span style="border:1px solid var(--line);border-radius:6px;padding:3px 8px;background:var(--surf)">→ Zoho Books</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div style="border-block:1px solid var(--line);background:var(--surf)">
+  <div class="w" style="display:grid;grid-template-columns:repeat(4,1fr)">
+    <div style="padding:18px 16px;border-right:1px solid var(--line)">
+      <b style="display:block;font:600 26px Fraunces,Georgia,serif;color:var(--deep);line-height:1.2">99.0%</b>
+      <span style="color:var(--mut);font-size:13px">Extraction accuracy</span>
+    </div>
+    <div style="padding:18px 16px;border-right:1px solid var(--line)">
+      <b style="display:block;font:600 26px Fraunces,Georgia,serif;color:var(--deep);line-height:1.2">10x</b>
+      <span style="color:var(--mut);font-size:13px">Faster processing</span>
+    </div>
+    <div style="padding:18px 16px;border-right:1px solid var(--line)">
+      <b style="display:block;font:600 26px Fraunces,Georgia,serif;color:var(--deep);line-height:1.2">ERP</b>
+      <span style="color:var(--mut);font-size:13px">Integrated: Tally, Zoho, SAP</span>
+    </div>
+    <div style="padding:18px 16px">
+      <b style="display:block;font:600 26px Fraunces,Georgia,serif;color:var(--deep);line-height:1.2">99.9%</b>
+      <span style="color:var(--mut);font-size:13px">Platform uptime</span>
+    </div>
+  </div>
+</div>
+
+<section id="how">
+  <div class="w">
+    <span class="eyebrow">How it works</span>
+    <h2>From documents to done, automatically</h2>
+    <p class="lead">Emails, PDFs and scans become validated data and completed workflows.</p>
+    <div style="display:grid;grid-template-columns:320px 1fr;gap:32px;margin-top:40px">
+      <div id="tabs">
+        <button class="on" data-i="0" style="display:block;width:100%;text-align:left;font:inherit;padding:16px 18px;margin-bottom:10px;border-radius:14px;border:1px solid var(--deep);background:var(--acc);color:var(--deep);cursor:pointer">
+          <b style="display:block">01 Capture</b><span style="font-size:13px;color:var(--deep)">Bring documents from anywhere</span>
+        </button>
+        <button data-i="1" style="display:block;width:100%;text-align:left;font:inherit;padding:16px 18px;margin-bottom:10px;border-radius:14px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer">
+          <b style="display:block">02 AI reads and extracts</b><span style="font-size:13px;color:var(--mut)">Documents into structured data</span>
+        </button>
+        <button data-i="2" style="display:block;width:100%;text-align:left;font:inherit;padding:16px 18px;margin-bottom:10px;border-radius:14px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer">
+          <b style="display:block">03 Validate and automate</b><span style="font-size:13px;color:var(--mut)">Checks before data moves</span>
+        </button>
+        <button data-i="3" style="display:block;width:100%;text-align:left;font:inherit;padding:16px 18px;margin-bottom:10px;border-radius:14px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer">
+          <b style="display:block">04 Sync and complete</b><span style="font-size:13px;color:var(--mut)">Push data into your systems</span>
+        </button>
+      </div>
+      <div class="card" id="pane" style="padding:28px;min-height:330px"></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="engines">
+  <div class="w">
+    <span class="eyebrow">Your platform</span>
+    <h2>One platform. Three automation engines.</h2>
+    <p class="lead">Finance, logistics and workflow automation in one place, eliminating manual effort across departments.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px">
+      <div class="card" style="padding:26px">
+        <div style="width:46px;height:46px;border-radius:12px;background:var(--acc);color:var(--deep);display:grid;place-items:center;font-weight:700;margin-bottom:18px">₹</div>
+        <h3 style="font-size:21px;margin-bottom:8px">Invoice automation</h3>
+        <p style="color:var(--mut);margin:0 0 14px;font-size:15px">Extract invoice data, validate GST and line items, and sync with Tally, Zoho and SAP.</p>
+        <a href="invoice-processing/index.html" style="color:var(--deep);font-weight:600;text-decoration:none">Explore invoices →</a>
+      </div>
+      <div class="card" style="padding:26px">
+        <div style="width:46px;height:46px;border-radius:12px;background:var(--acc);color:var(--deep);display:grid;place-items:center;font-weight:700;margin-bottom:18px">⛴</div>
+        <h3 style="font-size:21px;margin-bottom:8px">Logistics and supply chain</h3>
+        <p style="color:var(--mut);margin:0 0 14px;font-size:15px">Process bills of lading, customs documents and packing lists, with CargoWise integration.</p>
+        <a href="logistics-trade/index.html" style="color:var(--deep);font-weight:600;text-decoration:none">Explore logistics →</a>
+      </div>
+      <div class="card" style="padding:26px">
+        <div style="width:46px;height:46px;border-radius:12px;background:var(--acc);color:var(--deep);display:grid;place-items:center;font-weight:700;margin-bottom:18px">⇄</div>
+        <h3 style="font-size:21px;margin-bottom:8px">Workflows and approvals</h3>
+        <p style="color:var(--mut);margin:0 0 14px;font-size:15px">Route, validate, approve and track documents with multi-level approvals and role-based control.</p>
+        <a href="workflows/index.html" style="color:var(--deep);font-weight:600;text-decoration:none">Explore workflows →</a>
+      </div>
+    </div>
+    <div style="margin-top:16px;text-align:center;padding:16px;border-radius:14px;background:var(--lav);color:var(--deep);border:1px solid var(--line);font-size:14px;font-weight:500">
+      Shared core: AI extraction · Validation rules · Audit trail · Role-based access · Secure API
+    </div>
+  </div>
+</section>
+
+<section id="roi">
+  <div class="w" style="display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center">
+    <div class="card" style="padding:28px">
+      <span class="eyebrow">ROI estimator</span>
+      <h3 style="font-size:26px">What could your team save?</h3>
+      <div style="margin-top:18px;color:var(--mut)">Documents per month: <b id="dv" style="color:var(--ink)">2,000</b></div>
+      <input type="range" id="sl" min="200" max="20000" step="200" value="2000" style="width:100%;accent-color:#0F3D2E;margin:14px 0" aria-label="Documents per month">
+      <div class="fine">Estimated hours saved each month</div>
+      <div style="font:600 44px Fraunces,Georgia,serif;color:var(--deep)" id="hr">~130 hrs</div>
+      <div class="fine" style="margin:6px 0 18px">Illustrative estimate based on 10x processing speed benchmarks.</div>
+      <a class="btn p" href="request-demo/index.html">Get my custom estimate</a>
+    </div>
+    <div>
+      <span class="eyebrow">Measurable business impact</span>
+      <h2>Real numbers from teams on Docsynecx</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px">
+        <div class="card" style="padding:22px"><b style="font:600 32px Fraunces,Georgia,serif;color:var(--deep);display:block">80%</b><span style="color:var(--mut);font-size:14px">Faster processing</span></div>
+        <div class="card" style="padding:22px"><b style="font:600 32px Fraunces,Georgia,serif;color:var(--deep);display:block">60–70%</b><span style="color:var(--mut);font-size:14px">Cost reduction</span></div>
+        <div class="card" style="padding:22px"><b style="font:600 32px Fraunces,Georgia,serif;color:var(--deep);display:block">99%+</b><span style="color:var(--mut);font-size:14px">Accurate data capture</span></div>
+        <div class="card" style="padding:22px"><b style="font:600 32px Fraunces,Georgia,serif;color:var(--deep);display:block">Real-time</b><span style="color:var(--mut);font-size:14px">Decisions & audit trails</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="int">
+  <div class="w">
+    <span class="eyebrow">Integrations</span>
+    <h2>Works with your existing systems</h2>
+    <p class="lead">No disruption. Smarter automation layered on the tools you already use.</p>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px">
+      <a class="card" href="integration/invoice-to-tally/index.html" style="padding:20px;display:flex;align-items:center;gap:14px;box-shadow:none;text-decoration:none;color:inherit">
+        <div style="width:42px;height:42px;border-radius:10px;background:var(--lav);display:grid;place-items:center;font-weight:700;color:var(--deep);flex:none">T</div>
+        <div>TallyPrime<small style="display:block;color:var(--mut)">Direct ledger & voucher posting</small></div>
+        <span class="chip" style="margin-left:auto">Ready</span>
+      </a>
+      <a class="card" href="integration/zoho-books/index.html" style="padding:20px;display:flex;align-items:center;gap:14px;box-shadow:none;text-decoration:none;color:inherit">
+        <div style="width:42px;height:42px;border-radius:10px;background:var(--lav);display:grid;place-items:center;font-weight:700;color:var(--deep);flex:none">Z</div>
+        <div>Zoho Books<small style="display:block;color:var(--mut)">Bills and item sync</small></div>
+        <span class="chip" style="margin-left:auto">Ready</span>
+      </a>
+      <a class="card" href="integration/cargowise/index.html" style="padding:20px;display:flex;align-items:center;gap:14px;box-shadow:none;text-decoration:none;color:inherit">
+        <div style="width:42px;height:42px;border-radius:10px;background:var(--lav);display:grid;place-items:center;font-weight:700;color:var(--deep);flex:none">C</div>
+        <div>CargoWise<small style="display:block;color:var(--mut)">Freight forwarders & TMS</small></div>
+        <span class="chip" style="margin-left:auto">Ready</span>
+      </a>
+      <a class="card" href="enterprise/index.html" style="padding:20px;display:flex;align-items:center;gap:14px;box-shadow:none;text-decoration:none;color:inherit">
+        <div style="width:42px;height:42px;border-radius:10px;background:var(--lav);display:grid;place-items:center;font-weight:700;color:var(--deep);flex:none">S</div>
+        <div>SAP<small style="display:block;color:var(--mut)">Enterprise ERP connectors</small></div>
+        <span class="chip" style="margin-left:auto">Enterprise</span>
+      </a>
+      <a class="card" href="enterprise/index.html" style="padding:20px;display:flex;align-items:center;gap:14px;box-shadow:none;text-decoration:none;color:inherit">
+        <div style="width:42px;height:42px;border-radius:10px;background:var(--lav);display:grid;place-items:center;font-weight:700;color:var(--deep);flex:none">O</div>
+        <div>Oracle ERP<small style="display:block;color:var(--mut)">Cloud financials integration</small></div>
+        <span class="chip" style="margin-left:auto">Enterprise</span>
+      </a>
+      <a class="card" href="enterprise/index.html" style="padding:20px;display:flex;align-items:center;gap:14px;box-shadow:none;text-decoration:none;color:inherit">
+        <div style="width:42px;height:42px;border-radius:10px;background:var(--lav);display:grid;place-items:center;font-weight:700;color:var(--deep);flex:none">M</div>
+        <div>Microsoft Dynamics<small style="display:block;color:var(--mut)">Business applications</small></div>
+        <span class="chip" style="margin-left:auto">Enterprise</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="ind">
+  <div class="w">
+    <span class="eyebrow">Industries</span>
+    <h2>Built for the way your sector works</h2>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin:30px 0 16px" id="itabs">
+      <button class="on" data-i="0" style="font:inherit;padding:9px 18px;border-radius:99px;border:1px solid var(--deep);background:var(--acc);color:var(--deep);cursor:pointer">Manufacturing</button>
+      <button data-i="1" style="font:inherit;padding:9px 18px;border-radius:99px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer">Logistics & Freight</button>
+      <button data-i="2" style="font:inherit;padding:9px 18px;border-radius:99px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer">Trading</button>
+      <button data-i="3" style="font:inherit;padding:9px 18px;border-radius:99px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer">Finance & CA Firms</button>
+    </div>
+    <div class="card" id="ipane" style="padding:30px;display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center"></div>
+  </div>
+</section>
+
+<div class="final" id="cta" style="background:linear-gradient(135deg,var(--lav),#F2FAF4);border:1px solid var(--line);color:var(--ink);border-radius:28px;padding:64px 40px;text-align:center;margin:0 24px">
+  <span class="eyebrow">Ready when you are</span>
+  <h2 style="max-width:680px;margin:0 auto 14px">Ready to transform your document processing?</h2>
+  <p style="opacity:.8;max-width:540px;margin:0 auto">Trusted by businesses for intelligent data extraction and end-to-end document automation.</p>
+  <div class="cta" style="justify-content:center">
+    <a class="btn l" href="pricing/index.html">Start free trial</a>
+    <a class="btn" href="request-demo/index.html">Schedule demo</a>
+  </div>
+</div>
+
+<footer>
+  <div class="w">
+    <div class="g">
+      <div>
+        <a class="logo" href="index.html"><img src="images/logo.svg" alt="Docsynecx" class="logo-img" width="143" height="42"></a>
+        <p style="margin-top:12px;max-width:320px;line-height:1.5">The AI-powered document automation platform for intelligent processing, data extraction and business workflows.</p>
+        <div class="mail" style="margin-top:18px">
+          <input type="email" aria-label="Your work email" placeholder="Your work email">
+          <a class="btn p" href="request-demo/index.html">Book a demo</a>
+        </div>
+      </div>
+      <div>
+        <b>Products</b>
+        <a href="invoice-processing/index.html">Invoice Automation</a>
+        <a href="logistics-trade/index.html">Logistics & Supply Chain</a>
+        <a href="workflows/index.html">Workflows & Approvals</a>
+        <a href="logistics-trade/shipments/index.html">Shipments Automation</a>
+        <a href="logistics-trade/custom-declarations/index.html">Customs Declarations</a>
+      </div>
+      <div>
+        <b>Integrations</b>
+        <a href="integration/invoice-to-tally/index.html">TallyPrime</a>
+        <a href="integration/zoho-books/index.html">Zoho Books</a>
+        <a href="integration/cargowise/index.html">CargoWise</a>
+        <a href="enterprise/index.html">SAP & Enterprise ERP</a>
+      </div>
+      <div>
+        <b>Solutions</b>
+        <a href="solutions/accounts-payable/index.html">Accounts Payable</a>
+        <a href="solutions/logistics/index.html">Logistics</a>
+        <a href="solutions/banking/index.html">Banking & Finance</a>
+        <a href="pricing/index.html">Pricing Plans</a>
+      </div>
+      <div>
+        <b>Company</b>
+        <a href="about/index.html">About Us</a>
+        <a href="blog/index.html">Blog</a>
+        <a href="partners/index.html">Partners</a>
+        <a href="contact/index.html">Contact Us</a>
+        <a href="help/index.html">Help & FAQs</a>
+      </div>
+    </div>
+    <div class="copy" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px">
+      <div>&copy; 2026 SynecxAI Labs Private Limited. All rights reserved.</div>
+      <div style="display:flex;gap:18px">
+        <a href="privacy-policy/index.html">Privacy Policy</a>
+        <a href="terms-of-service/index.html">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+var S=[
+  ["Capture your documents","Upload PDFs and scans, or capture documents directly from email, portals, APIs and connected systems.",["Email","PDF","Scan","Portal","API","Vendor invoice","Bill of lading","Packing list"]],
+  ["AI reads and extracts","Docsynecx understands the document, identifies the fields your workflow needs and extracts them as structured data.",["Vendor name","GSTIN","Invoice number","Invoice date","Line items","Tax","Total amount"]],
+  ["Validate and automate","Missing or inconsistent data is detected and your business rules are applied before anything moves downstream.",["GST validation","Duplicate detection","PO matching","Bank reconciliation","Shipment matching","Business rules"]],
+  ["Sync and complete the workflow","Verified data flows into the systems your team already uses, so nothing is retyped.",["TallyPrime","Zoho Books","CargoWise","SAP","TMS","ERP"]]
+];
+var I=[
+  ["Manufacturing","High-volume document workflows for procurement, GRN and invoices.",["Purchase order","GRN","Invoice"]],
+  ["Logistics and freight forwarders","Automate bills of lading, PODs and shipping documents for full shipment visibility.",["Bill of lading","POD","Packing list"]],
+  ["Trading businesses","Faster order and invoice cycles with automated reconciliation workflows.",["Order","Invoice","Bank statement"]],
+  ["Finance teams and CA firms","Accurate, compliant document processing with audit-ready automation.",["Invoices","Bank statements","Audit trail"]]
+];
+function pills(a){return a.map(function(x){return '<span style="border:1px solid var(--line);background:var(--alt);padding:6px 14px;border-radius:99px;font-size:14px;display:inline-block;margin:4px">'+x+'</span>'}).join("")}
+function setT(i){
+  document.getElementById("pane").innerHTML='<span class="chip">Step 0'+(i+1)+'</span><h3 style="margin-top:14px">'+S[i][0]+'</h3><p class="lead" style="font-size:16px">'+S[i][1]+'</p><div style="margin-top:16px">'+pills(S[i][2])+'</div>';
+}
+function setI(i){
+  document.getElementById("ipane").innerHTML='<div><h3>'+I[i][0]+'</h3><p style="color:var(--mut);margin:0 0 14px">'+I[i][1]+'</p><div style="margin:0 0 18px">'+pills(I[i][2])+'</div><a class="btn p" href="request-demo/index.html">See this workflow</a></div><div class="paper"><i style="width:50%"></i><i class="hl" style="width:80%"></i><i></i><i class="hl" style="width:60%"></i><i style="width:70%"></i></div>';
+}
+function wire(id,fn){
+  var b=document.querySelectorAll("#"+id+" button");
+  b.forEach(function(x){
+    x.addEventListener("click",function(){
+      b.forEach(function(y){
+        y.style.background="var(--surf)";
+        y.style.borderColor="var(--line)";
+        y.style.color="var(--ink)";
+      });
+      x.style.background="var(--acc)";
+      x.style.borderColor="var(--deep)";
+      x.style.color="var(--deep)";
+      fn(+x.dataset.i);
+    });
+  });
+}
+wire("tabs",setT);wire("itabs",setI);setT(0);setI(0);
+var sl=document.getElementById("sl");
+sl.addEventListener("input",function(){
+  document.getElementById("dv").textContent=Number(sl.value).toLocaleString("en-IN");
+  document.getElementById("hr").textContent="~"+Math.round(sl.value/15)+" hrs";
+});
+</script>
+<script>
+(function() {
+  var dds = document.querySelectorAll(".dd");
+  function closeAll() {
+    dds.forEach(function(d) {
+      d.classList.remove("open");
+      var btn = d.querySelector("button");
+      if (btn) btn.setAttribute("aria-expanded", "false");
+    });
+  }
+  dds.forEach(function(d) {
+    var b = d.querySelector("button");
+    if (!b) return;
+    b.addEventListener("click", function(e) {
+      e.stopPropagation();
+      var o = d.classList.contains("open");
+      closeAll();
+      if (!o) {
+        d.classList.add("open");
+        b.setAttribute("aria-expanded", "true");
+      }
+    });
+  });
+  document.addEventListener("click", closeAll);
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") closeAll();
+  });
+
+  // Mobile menu toggle
+  var mt = document.getElementById("menuToggle");
+  var mn = document.getElementById("menu");
+  if (mt && mn) {
+    mt.addEventListener("click", function(e) {
+      e.stopPropagation();
+      var isOpen = mn.style.display === "flex";
+      mn.style.display = isOpen ? "none" : "flex";
+      mn.style.flexDirection = "column";
+      mn.style.position = "absolute";
+      mn.style.top = "68px";
+      mn.style.left = "0";
+      mn.style.width = "100%";
+      mn.style.background = "var(--surf)";
+      mn.style.padding = "20px";
+      mn.style.borderBottom = "1px solid var(--line)";
+      mn.style.boxShadow = "0 10px 30px rgba(0,0,0,0.1)";
+    });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Docsynecx: AI document processing for finance and logistics</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#FAFAF7;--surf:#fff;--alt:#F6F5EE;--ink:#10241C;--mut:#4B5B54;--line:#E3E1D6;--deep:#0F3D2E;--acc:#CBE8D1;--lav:#E6F3E9;--ok:#14663F;--warn:#855409;--oninv:#fff;
+color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,"Times New Roman",serif;font-weight:600;letter-spacing:-.02em;line-height:1.12;margin:0}
+.w{max-width:1160px;margin:0 auto;padding:0 24px}
+section{padding:88px 0}
+.eyebrow{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--deep);background:var(--lav);padding:5px 12px;border-radius:99px;margin-bottom:16px}
+h2{font-size:clamp(28px,4vw,42px);margin-bottom:14px}
+.lead{color:var(--mut);max-width:620px;font-size:18px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;padding:13px 24px;border-radius:99px;border:1.5px solid var(--deep);color:var(--deep);background:transparent;cursor:pointer;font-size:15px}
+.btn.p{background:var(--deep);color:var(--oninv)}
+.btn.l{background:var(--deep);border-color:var(--deep);color:#fff}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .w{display:flex;align-items:center;gap:28px;height:68px}
+.logo{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:22px;color:var(--deep)}
+.links{display:flex;gap:4px;flex:1;font-size:15px;align-items:center}
+.links>a,.dd>button{font:inherit;font-weight:500;color:var(--ink);background:none;border:0;padding:10px 12px;border-radius:10px;cursor:pointer;text-decoration:none}
+.dd{position:relative;display:flex;align-items:center;height:68px}
+.dd>button::after{content:"\25BE";margin-left:6px;font-size:11px}
+.links>a:hover,.dd>button:hover,.dd.open>button{background:var(--alt)}
+.panel{display:none;position:absolute;top:100%;left:0;min-width:440px;background:var(--surf);border:1px solid var(--line);border-radius:16px;box-shadow:0 24px 60px -20px rgba(15,61,46,.35);padding:22px;gap:28px;grid-template-columns:1fr 1fr;z-index:20}
+.dd.open .panel{display:grid}
+@media(hover:hover){.dd:hover .panel{display:grid}}
+.ph{display:block;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--deep);padding:0 8px 8px}
+.panel a{display:block;color:var(--ink);text-decoration:none;padding:8px;border-radius:8px;font-size:15px}
+.panel a:hover{background:var(--lav)}
+.panel .sub{color:var(--mut);font-size:13px;display:block}
+a:focus-visible,button:focus-visible{outline:3px solid #0F3D2E;outline-offset:2px}
+.btn.l:focus-visible,.btn.p:focus-visible{outline-color:#0F3D2E;box-shadow:0 0 0 3px var(--acc)}
+.hero{padding:72px 0 64px;background:radial-gradient(900px 420px at 85% -10%,var(--lav),transparent 70%)}
+.hero .g{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(36px,5.4vw,60px);margin-bottom:20px}
+.hero h1 em{font-style:normal;color:var(--deep)}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 14px}
+.fine{font-size:13px;color:var(--mut)}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:18px;box-shadow:0 18px 50px -24px rgba(15,61,46,.28)}
+.mock{padding:18px}
+.mh{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--mut);margin-bottom:12px}
+.chip{font-size:12px;font-weight:600;padding:3px 10px;border-radius:99px;background:color-mix(in srgb,var(--ok) 14%,transparent);color:var(--ok)}
+.chip.w2{background:color-mix(in srgb,var(--warn) 16%,transparent);color:var(--warn)}
+.mg{display:grid;grid-template-columns:.8fr 1.2fr;gap:14px}
+.paper{background:var(--alt);border:1px solid var(--line);border-radius:12px;padding:14px}
+.paper i{display:block;height:7px;border-radius:4px;background:var(--line);margin:8px 0}
+.paper i.hl{background:var(--acc);outline:2px solid var(--deep)}
+.f{display:flex;justify-content:space-between;gap:8px;padding:9px 0;border-bottom:1px solid var(--line);font-size:13.5px}
+.f span:first-child{color:var(--mut)}.f b{font-weight:600}.f small{color:var(--ok);margin-left:6px}
+.sync{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap;font-size:12.5px}
+.sync span{border:1px solid var(--line);border-radius:8px;padding:4px 10px;background:var(--surf)}
+.stats{border-block:1px solid var(--line);background:var(--surf)}
+.stats .w{display:grid;grid-template-columns:repeat(4,1fr)}
+.stats div{padding:28px 20px;border-right:1px solid var(--line)}.stats div:last-child{border:0}
+.stats b{display:block;font:600 34px Fraunces,Georgia,serif;color:var(--deep)}
+.stats span{color:var(--mut);font-size:14px}
+.steps{display:grid;grid-template-columns:320px 1fr;gap:32px;margin-top:40px}
+.tabs button{display:block;width:100%;text-align:left;font:inherit;padding:16px 18px;margin-bottom:10px;border-radius:14px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer}
+.tabs button b{display:block}.tabs button span{font-size:13px;color:var(--mut)}
+.tabs button.on{background:var(--acc);color:var(--deep);border-color:var(--deep)}
+.tabs button.on span{color:var(--deep)}
+.pane{padding:28px;min-height:330px}
+.pane h3{font-size:24px;margin-bottom:8px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.pills span{border:1px solid var(--line);background:var(--alt);padding:6px 14px;border-radius:99px;font-size:14px}
+.alt{background:var(--alt);border-block:1px solid var(--line)}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.three .card{padding:26px}
+.ic{width:46px;height:46px;border-radius:12px;background:var(--acc);color:#0F3D2E;display:grid;place-items:center;font-weight:700;margin-bottom:18px}
+.three h3{font-size:21px;margin-bottom:8px}.three p{color:var(--mut);margin:0 0 14px;font-size:15px}
+.three a{color:var(--deep);font-weight:600;text-decoration:none}
+.core{margin-top:16px;text-align:center;padding:16px;border-radius:14px;background:var(--lav);color:var(--deep);border:1px solid var(--line);font-size:14px;font-weight:500}
+.roi{display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:center}
+.calc{padding:28px}
+input[type=range]{width:100%;accent-color:#0F3D2E;margin:14px 0}
+.big{font:600 44px Fraunces,Georgia,serif;color:var(--deep)}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:16px}.kpis .card{padding:22px}
+.kpis b{font:600 32px Fraunces,Georgia,serif;color:var(--deep);display:block}.kpis span{color:var(--mut);font-size:14px}
+.ints{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.ints .card{padding:20px;display:flex;align-items:center;gap:14px;box-shadow:none}
+.ints .lg{width:42px;height:42px;border-radius:10px;background:var(--lav);display:grid;place-items:center;font-weight:700;color:var(--deep);flex:none}
+.ints small{display:block;color:var(--mut)}.ints .chip{margin-left:auto}
+.indtabs{display:flex;gap:8px;flex-wrap:wrap;margin:30px 0 16px}
+.indtabs button{font:inherit;padding:9px 18px;border-radius:99px;border:1px solid var(--line);background:var(--surf);color:var(--ink);cursor:pointer}
+.indtabs button.on{background:var(--acc);color:var(--deep);border-color:var(--deep)}
+.ind{padding:30px;display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center}
+.ind h3{font-size:26px;margin-bottom:8px}.ind p{color:var(--mut);margin:0 0 14px}
+.ind .paper{min-height:170px}
+.final{background:linear-gradient(135deg,var(--lav),#F2FAF4);border:1px solid var(--line);color:var(--ink);border-radius:28px;padding:64px 40px;text-align:center;margin:0 24px}
+.final h2{color:var(--ink);max-width:680px;margin:0 auto 14px}.final p{opacity:.8;max-width:540px;margin:0 auto}
+.final .cta{justify-content:center}.final .btn:not(.l){color:var(--deep);border-color:var(--deep)}
+footer{padding:56px 0 32px;color:var(--mut);font-size:14px}
+footer .g{display:grid;grid-template-columns:1.6fr repeat(4,1fr);gap:24px}
+footer b{display:block;color:var(--ink);margin-bottom:10px}footer a{display:block;color:inherit;text-decoration:none;margin:6px 0}
+.copy{margin-top:36px;padding-top:18px;border-top:1px solid var(--line)}
+@media(max-width:860px){.hero .g,.steps,.roi,.ind{grid-template-columns:1fr}.links{display:none}.three,.ints{grid-template-columns:1fr}.stats .w{grid-template-columns:1fr 1fr}footer .g{grid-template-columns:1fr 1fr}nav .btn.hide{display:none}section{padding:60px 0}}
+</style>
+</head>
+<body>
+<nav><div class="w"><a class="logo" href="#" style="text-decoration:none">docsynecx</a>
+<div class="links" id="menu">
+<div class="dd"><button aria-expanded="false" aria-haspopup="true">Product</button><div class="panel">
+<div><a href="#engines">Invoice automation</a><a href="#engines">Logistics and supply chain</a><a href="#engines">Workflow and approvals</a></div>
+<div><span class="ph">Integration &#9656;</span><a href="#int">Tally</a><a href="#int">ZohoBooks</a><a href="#int">CargoWise</a></div></div></div>
+<div class="dd"><button aria-expanded="false" aria-haspopup="true">Solutions</button><div class="panel">
+<div><span class="ph">By industry</span><a href="#ind">Banking</a><a href="#ind">Finance</a><a href="#ind">Logistics</a></div>
+<div><span class="ph">Use case</span><a href="#ind">Accounts Payable</a></div></div></div>
+<div class="dd"><button aria-expanded="false" aria-haspopup="true">Resources</button><div class="panel">
+<div><span class="ph">Learn</span><a href="#">Blog</a><a href="#">Case study</a><a href="#">Support docs</a></div>
+<div><span class="ph">Company</span><a href="#">About us</a><a href="#">Careers</a><a href="#">Partner company</a></div></div></div>
+<a href="#roi">Pricing</a></div>
+<a class="btn hide" href="#">Login</a><a class="btn p" href="#cta">Book a demo</a></div></nav>
+
+<header class="hero"><div class="w g">
+<div>
+<span class="eyebrow">Intelligent Document Processing</span>
+<h1>Turn every document into <em>validated data</em>, automatically.</h1>
+<p class="lead">Docsynecx extracts, validates and posts invoices, logistics documents and approvals into Tally, Zoho, SAP and CargoWise, without manual data entry.</p>
+<div class="cta"><a class="btn p" href="#cta">Start free trial</a><a class="btn" href="#cta">Book a demo</a></div>
+<div class="fine">No credit card required · 7-day free trial · Secure API access included</div>
+</div>
+<div class="card mock">
+<div class="mh"><b style="color:var(--ink)">Vendor invoice · INV-88213</b><span class="chip">Validation successful</span></div>
+<div class="mg">
+<div class="paper"><i style="width:55%"></i><i class="hl" style="width:80%"></i><i></i><i style="width:70%"></i><i class="hl"></i><i style="width:40%"></i><i></i><i class="hl" style="width:60%"></i><i style="width:75%"></i></div>
+<div>
+<div class="f"><span>Vendor name</span><b>Acme Traders Pvt Ltd</b></div>
+<div class="f"><span>GSTIN</span><b>29ABCDE1234F1Z5 <small>✓</small></b></div>
+<div class="f"><span>Invoice date</span><b>12 Aug 2026</b></div>
+<div class="f"><span>Line items · Tax</span><b>7 items · 18% GST</b></div>
+<div class="f" style="border:0"><span>Total amount</span><b>₹4,82,300.00</b></div>
+</div></div>
+<div class="sync"><span>✓ PO matched</span><span>✓ No duplicate</span><span>→ TallyPrime</span><span>→ Zoho Books</span></div>
+</div></div></header>
+
+<div class="stats"><div class="w"><div><b>99.0%</b><span>Extraction accuracy</span></div><div><b>10x</b><span>Faster processing</span></div><div><b>ERP</b><span>Integrated: Tally, Zoho, SAP</span></div><div><b>99.9%</b><span>Platform uptime</span></div></div></div>
+
+<section id="how"><div class="w">
+<span class="eyebrow">How it works</span>
+<h2>From documents to done, automatically</h2>
+<p class="lead">Emails, PDFs and scans become validated data and completed workflows.</p>
+<div class="steps">
+<div class="tabs" id="tabs">
+<button class="on" data-i="0"><b>01 Capture</b><span>Bring documents from anywhere</span></button>
+<button data-i="1"><b>02 AI reads and extracts</b><span>Documents into structured data</span></button>
+<button data-i="2"><b>03 Validate and automate</b><span>Checks before data moves</span></button>
+<button data-i="3"><b>04 Sync and complete</b><span>Push data into your systems</span></button>
+</div>
+<div class="card pane" id="pane"></div>
+</div></div></section>
+
+<section class="alt" id="engines"><div class="w">
+<span class="eyebrow">Your platform</span>
+<h2>One platform. Three automation engines.</h2>
+<p class="lead">Finance, logistics and workflow automation in one place, eliminating manual effort across departments.</p>
+<div class="three">
+<div class="card"><div class="ic">₹</div><h3>Invoice automation</h3><p>Extract invoice data, validate GST and line items, and sync with Tally, Zoho and SAP.</p><a href="#">Explore invoices →</a></div>
+<div class="card"><div class="ic">⛴</div><h3>Logistics and supply chain</h3><p>Process bills of lading, customs documents and packing lists, with CargoWise integration.</p><a href="#">Explore logistics →</a></div>
+<div class="card"><div class="ic">⇄</div><h3>Workflows and approvals</h3><p>Route, validate, approve and track documents with multi-level approvals and role-based control.</p><a href="#">Explore workflows →</a></div>
+</div>
+<div class="core">Shared core: AI extraction · Validation rules · Audit trail · Role-based access · Secure API</div>
+</div></section>
+
+<section id="roi"><div class="w roi">
+<div class="card calc">
+<span class="eyebrow">ROI estimator</span>
+<h3 style="font-size:26px">What could your team save?</h3>
+<div style="margin-top:18px;color:var(--mut)">Documents per month: <b id="dv" style="color:var(--ink)">2,000</b></div>
+<input type="range" id="sl" min="200" max="20000" step="200" value="2000" aria-label="Documents per month">
+<div class="fine">Estimated hours saved each month</div>
+<div class="big" id="hr">~130 hrs</div>
+<div class="fine" style="margin:6px 0 18px">Illustrative estimate. Replace with your own benchmark.</div>
+<a class="btn p" href="#cta">Get my estimate</a>
+</div>
+<div><span class="eyebrow">Measurable business impact</span><h2>Real numbers from teams on Docsynecx</h2>
+<div class="kpis" style="margin-top:24px"><div class="card"><b>80%</b><span>Faster processing</span></div><div class="card"><b>60–70%</b><span>Cost reduction</span></div><div class="card"><b>Fewer</b><span>Manual errors</span></div><div class="card"><b>Faster</b><span>Decision-making</span></div></div></div>
+</div></section>
+
+<section class="alt" id="int"><div class="w">
+<span class="eyebrow">Integrations</span>
+<h2>Works with your existing systems</h2>
+<p class="lead">No disruption. Smarter automation layered on the tools you already use.</p>
+<div class="ints">
+<div class="card"><div class="lg">T</div><div>Tally<small>AI accounting automation</small></div><span class="chip">Ready</span></div>
+<div class="card"><div class="lg">Z</div><div>Zoho Books<small>Business suite</small></div><span class="chip">Ready</span></div>
+<div class="card"><div class="lg">C</div><div>CargoWise<small>Freight forwarders</small></div><span class="chip">Ready</span></div>
+<div class="card"><div class="lg">S</div><div>SAP<small>Enterprise resource planning</small></div><span class="chip">Ready</span></div>
+<div class="card"><div class="lg">O</div><div>Oracle ERP<small>Cloud ERP and financials</small></div><span class="chip">Ready</span></div>
+<div class="card"><div class="lg">M</div><div>Microsoft Dynamics<small>Business applications</small></div><span class="chip">Ready</span></div>
+</div></div></section>
+
+<section id="ind"><div class="w">
+<span class="eyebrow">Industries</span>
+<h2>Built for the way your sector works</h2>
+<div class="indtabs" id="itabs"><button class="on" data-i="0">Manufacturing</button><button data-i="1">Logistics and freight</button><button data-i="2">Trading</button><button data-i="3">Finance and CA firms</button></div>
+<div class="card ind" id="ipane"></div>
+</div></section>
+
+<div class="final" id="cta"><span class="eyebrow">Ready when you are</span>
+<h2>Ready to transform your document processing?</h2>
+<p>Trusted by businesses for intelligent data extraction and end-to-end document automation.</p>
+<div class="cta"><a class="btn l" href="#">Start free trial</a><a class="btn" href="#">Schedule demo</a></div></div>
+
+<footer><div class="w"><div class="g">
+<div><span class="logo">docsynecx</span><p>The AI-powered document automation platform for intelligent processing, data extraction and business workflows.</p></div>
+<div><b>Products</b><a href="#">Invoice Automation</a><a href="#">Logistics and Supply Chain</a><a href="#">Workflows and Approvals</a></div>
+<div><b>Integrations</b><a href="#">Tally</a><a href="#">Zoho</a><a href="#">CargoWise</a><a href="#">Other ERP systems</a></div>
+<div><b>Use cases</b><a href="#">Finance and Accounting</a><a href="#">Accounts Payable</a><a href="#">Healthcare</a><a href="#">KYC onboarding</a></div>
+<div><b>Company</b><a href="#">About</a><a href="#">Blog</a><a href="#">Enterprise</a><a href="#">Contact</a></div>
+</div><div class="copy">© 2026 SynecxAI Labs Private Limited. All rights reserved. · Privacy Policy · Terms of Service</div></div></footer>
+
+<script>
+var S=[
+["Capture your documents","Upload PDFs and scans, or capture documents directly from email, portals, APIs and connected systems.",["Email","PDF","Scan","Portal","API","Vendor invoice","Bill of lading","Packing list"]],
+["AI reads and extracts","Docsynecx understands the document, identifies the fields your workflow needs and extracts them as structured data.",["Vendor name","GSTIN","Invoice number","Invoice date","Line items","Tax","Total amount"]],
+["Validate and automate","Missing or inconsistent data is detected and your business rules are applied before anything moves downstream.",["GST validation","Duplicate detection","PO matching","Bank reconciliation","Shipment matching","Business rules"]],
+["Sync and complete the workflow","Verified data flows into the systems your team already uses, so nothing is retyped.",["TallyPrime","Zoho Books","CargoWise","SAP","TMS","ERP"]]];
+var I=[
+["Manufacturing","High-volume document workflows for procurement, GRN and invoices.",["Purchase order","GRN","Invoice"]],
+["Logistics and freight forwarders","Automate bills of lading, PODs and shipping documents for full shipment visibility.",["Bill of lading","POD","Packing list"]],
+["Trading businesses","Faster order and invoice cycles with automated reconciliation workflows.",["Order","Invoice","Bank statement"]],
+["Finance teams and CA firms","Accurate, compliant document processing with audit-ready automation.",["Invoices","Bank statements","Audit trail"]]];
+function pills(a){return a.map(function(x){return "<span>"+x+"</span>"}).join("")}
+function setT(i){document.getElementById("pane").innerHTML='<span class="chip">Step 0'+(i+1)+'</span><h3 style="margin-top:14px">'+S[i][0]+'</h3><p class="lead" style="font-size:16px">'+S[i][1]+'</p><div class="pills">'+pills(S[i][2])+'</div>'}
+function setI(i){document.getElementById("ipane").innerHTML='<div><h3>'+I[i][0]+'</h3><p>'+I[i][1]+'</p><div class="pills" style="margin:0 0 18px">'+pills(I[i][2])+'</div><a class="btn p" href="#cta">See this workflow</a></div><div class="paper"><i style="width:50%"></i><i class="hl" style="width:80%"></i><i></i><i class="hl" style="width:60%"></i><i style="width:70%"></i></div>'}
+function wire(id,fn){var b=document.querySelectorAll("#"+id+" button");b.forEach(function(x){x.addEventListener("click",function(){b.forEach(function(y){y.classList.remove("on")});x.classList.add("on");fn(+x.dataset.i)})})}
+wire("tabs",setT);wire("itabs",setI);setT(0);setI(0);
+var sl=document.getElementById("sl");sl.addEventListener("input",function(){document.getElementById("dv").textContent=Number(sl.value).toLocaleString("en-IN");document.getElementById("hr").textContent="~"+Math.round(sl.value/15)+" hrs"});
+var dds=document.querySelectorAll(".dd");
+function closeAll(){dds.forEach(function(d){d.classList.remove("open");d.firstElementChild.setAttribute("aria-expanded","false")})}
+dds.forEach(function(d){var b=d.firstElementChild;b.addEventListener("click",function(e){e.stopPropagation();var o=d.classList.contains("open");closeAll();if(!o){d.classList.add("open");b.setAttribute("aria-expanded","true")}})});
+document.addEventListener("click",closeAll);document.addEventListener("keydown",function(e){if(e.key==="Escape")closeAll()});
+</script>
+</body>
+</html>
