@@ -1,0 +1,275 @@
+{
+  "invoice-processing": {
+    "slug": "invoice-processing",
+    "title": "AI Invoice Processing & Automation Software | Docsynecx",
+    "description": "Extract, validate, and process hundreds of invoices in minutes. Eliminate manual entry and auto-sync with Tally, Zoho Books, and SAP.",
+    "eyebrow": "Invoice automation",
+    "h1_line1": "Automate Invoice Processing.",
+    "h1_line2": "Accelerate Your Finance Team.",
+    "lead": "Extract invoice data, validate GST and line items, automate approvals, and sync directly with Tally, Zoho, SAP and ERP systems.",
+    "doc_name": "Invoice_INV-88213.pdf",
+    "doc_tag": "Captured · PDF 1 page",
+    "mock_inv": {
+      "title": "TAX INVOICE",
+      "no": "INV-88213",
+      "date": "12 Aug 2026",
+      "taxable": "₹4,08,728.81",
+      "gst": "₹73,571.19",
+      "total": "₹4,82,300.00"
+    },
+    "mock_extract": [
+      {"label": "Line items", "val": "7 items"},
+      {"label": "GST rate", "val": "18%"},
+      {"label": "Invoice total", "val": "₹4,82,300.00"}
+    ],
+    "sync_target": "Synced to Tally",
+    "how_title": "From invoice receipt to accounting-ready data.",
+    "how_sub": "Extract invoice data, validate GST and line items, automate approvals, and sync directly with Tally, Zoho, SAP and ERP systems.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Collect invoices. Not manual tasks.",
+        "desc": "Bring vendor invoices together from email, uploads or your API. Keep the source document attached to every record.",
+        "tags": "Email inbox • PDF upload • API",
+        "card_title": "Invoice inbox",
+        "rows": [
+          {"top": "AP@YOURCOMPANY.COM", "bot": "Email connected", "check": true},
+          {"top": "INVOICE_INV-88213.PDF", "bot": "Received", "check": true},
+          {"top": "SOURCE DOCUMENT", "bot": "Ready to extract", "check": true}
+        ],
+        "status": "Source document captured"
+      },
+      {
+        "num": "02",
+        "title": "Turn every invoice into usable data.",
+        "desc": "AI extracts vendors, GSTIN, line items, tax and totals—even when your suppliers use different invoice layouts.",
+        "tags": "Vendor details • Tax fields • Line items",
+        "card_title": "AI extraction",
+        "rows": [
+          {"top": "VENDOR", "bot": "Acme Traders Pvt Ltd", "check": true},
+          {"top": "GSTIN", "bot": "29ABCDE1234F1Z5", "check": true},
+          {"top": "LINE ITEMS", "bot": "7 items extracted", "check": true}
+        ],
+        "status": "Extraction complete"
+      },
+      {
+        "num": "03",
+        "title": "Review the exception. Not every field.",
+        "desc": "Validate GST, check duplicates and match purchase orders. Route exceptions to a reviewer before records move downstream.",
+        "tags": "GST validation • Duplicate checks • PO matching",
+        "card_title": "Validation review",
+        "rows": [
+          {"top": "GST FORMAT", "bot": "Passed", "check": true},
+          {"top": "DUPLICATE INVOICE", "bot": "No match found", "check": true},
+          {"top": "PO-2026-0418", "bot": "Review requested", "warn": true}
+        ],
+        "status": "Exception sent for review",
+        "is_warn": true
+      },
+      {
+        "num": "04",
+        "title": "Send clean records to your accounts.",
+        "desc": "Sync validated invoices to Tally, Zoho Books or your ERP. Track the record from capture through posting.",
+        "tags": "Tally • Zoho Books • SAP / ERP",
+        "card_title": "Accounting sync",
+        "rows": [
+          {"top": "INV-88213", "bot": "Validated", "check": true},
+          {"top": "DESTINATION", "bot": "Tally", "check": true},
+          {"top": "RECORD STATUS", "bot": "Posted successfully", "check": true}
+        ],
+        "status": "Handoff complete · Status updated"
+      }
+    ],
+    "impact_title": "Less invoice handling. More financial clarity.",
+    "impact": [
+      {"title": "Fewer manual checks", "desc": "Focus finance reviewers on the invoices that need attention."},
+      {"title": "Clear exceptions", "desc": "See tax, duplicate and PO issues before posting."},
+      {"title": "Clean accounting data", "desc": "Move validated fields into your existing accounts."},
+      {"title": "More visibility", "desc": "Follow invoices from receipt to approval and sync."}
+    ],
+    "cta_banner_title": "Let your finance team focus on what matters.",
+    "cta_banner_lead": "See how Docsynecx turns your documents into validated data and completed workflows."
+  },
+
+  "logistics-trade": {
+    "slug": "logistics-trade",
+    "title": "AI Logistics Workflow Automation Software | Docsynecx",
+    "description": "Automate freight forwarding operations with AI-powered document processing for shipment creation, customs documentation, AP reconciliation, and CargoWise integration.",
+    "eyebrow": "Logistics and supply chain",
+    "h1_line1": "Automate Logistics Documents.",
+    "h1_line2": "Keep Every Shipment Moving.",
+    "lead": "Process Bills of Lading, Customs Documents, Packing Lists and shipment documents with AI-powered automation—from document capture to operational workflows.",
+    "doc_name": "Bill_of_Lading_BL-99420.pdf",
+    "doc_tag": "Captured · Ocean Freight",
+    "mock_inv": {
+      "title": "BILL OF LADING",
+      "no": "BL-99420",
+      "date": "14 Oct 2026",
+      "taxable": "Port: Nhava Sheva (INNSA)",
+      "gst": "Dest: Rotterdam (NLRTM)",
+      "total": "2 x 40ft HC Containers"
+    },
+    "mock_extract": [
+      {"label": "Shipper", "val": "Global Trade Logistics"},
+      {"label": "Consignee", "val": "Apex Freight Europe"},
+      {"label": "Container", "val": "MSCU7829102 / Seal 4819"}
+    ],
+    "sync_target": "Synced to CargoWise One",
+    "how_title": "From Logistics Document Intake to TMS Sync in 4 Steps.",
+    "how_sub": "The same intelligent pipeline collects, extracts, validates, and synchronizes your global trade documentation 24/7.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Collect logistics files automatically.",
+        "desc": "Auto-gather ocean bills of lading, airway bills, packing lists, and commercial invoices from emails, customer portals, or APIs.",
+        "tags": "Email inbox • SFTP • Cloud storage",
+        "card_title": "Shipment Intake",
+        "rows": [
+          {"top": "OPS@DOCSYNECX.COM", "bot": "Email feed connected", "check": true},
+          {"top": "BL_99420.PDF", "bot": "Ocean BL detected", "check": true},
+          {"top": "PACKING_LIST.XLSX", "bot": "Matching file attached", "check": true}
+        ],
+        "status": "Intake completed"
+      },
+      {
+        "num": "02",
+        "title": "AI reads and structures shipment fields.",
+        "desc": "Extract container numbers, seal numbers, HS codes, weights, vessels, ports, shipper, and consignee details across varied carrier templates.",
+        "tags": "Container # • HS codes • Weights & Volumes",
+        "card_title": "Cargo Data Extraction",
+        "rows": [
+          {"top": "VESSEL", "bot": "MSC Oscar V.240W", "check": true},
+          {"top": "CONTAINER", "bot": "MSCU7829102 (40HC)", "check": true},
+          {"top": "GROSS WEIGHT", "bot": "24,850.00 KGS", "check": true}
+        ],
+        "status": "Fields extracted with 99.0% accuracy"
+      },
+      {
+        "num": "03",
+        "title": "Cross-check and validate against rules.",
+        "desc": "Reconcile packing lists against bills of lading. Check HS codes and flag discrepancies before customs submission.",
+        "tags": "BL vs Packing List • Discrepancy checks",
+        "card_title": "Validation & Rules",
+        "rows": [
+          {"top": "PIECE COUNT", "bot": "840 Packages (Matched)", "check": true},
+          {"top": "HS CODE 8471", "bot": "Tariff schedule valid", "check": true},
+          {"top": "DEMURRAGE RISK", "bot": "Free time: 14 days", "check": true}
+        ],
+        "status": "Cross-check passed"
+      },
+      {
+        "num": "04",
+        "title": "Direct API sync to CargoWise One.",
+        "desc": "Create or update shipment jobs in your TMS without manual re-keying. Keep freight operations moving around the clock.",
+        "tags": "CargoWise API • Native TMS Sync",
+        "card_title": "TMS Integration",
+        "rows": [
+          {"top": "SHIPMENT JOB", "bot": "JOB-2026-8819 created", "check": true},
+          {"top": "MILESTONE", "bot": "Pre-alert issued", "check": true},
+          {"top": "TMS STATUS", "bot": "Synchronized to CargoWise", "check": true}
+        ],
+        "status": "24/7 TMS synchronization active"
+      }
+    ],
+    "impact_title": "Faster turnaround. Zero manual re-keying.",
+    "impact": [
+      {"title": "10x Faster Job Creation", "desc": "Shipment jobs created in your TMS minutes after documents arrive."},
+      {"title": "Fewer Customs Delays", "desc": "Clean, verified entries prevent demurrage and filing fines."},
+      {"title": "Native CargoWise Sync", "desc": "Direct API posting without fragile spreadsheets or flat files."},
+      {"title": "Full Audit Trail", "desc": "Every source document attached directly to the operational record."}
+    ],
+    "cta_banner_title": "Stop retyping shipping documents. Start scaling operations.",
+    "cta_banner_lead": "See how Docsynecx automates document capture and shipment creation for forwarders."
+  },
+
+  "workflows": {
+    "slug": "workflows",
+    "title": "AI-Powered Workflow Automation for Finance & Operations | Docsynecx",
+    "description": "Replace manual approvals with structured, trackable, and scalable workflows. Built for finance, operations, and enterprise teams.",
+    "eyebrow": "Workflow and approvals",
+    "h1_line1": "From Documents to Decisions.",
+    "h1_line2": "Automatically.",
+    "lead": "Build intelligent workflows that route, validate, approve and track documents across finance and operations—with complete visibility and control.",
+    "doc_name": "PO_Approval_Req_4401.pdf",
+    "doc_tag": "Approval Request · Active",
+    "mock_inv": {
+      "title": "WORKFLOW APPROVAL",
+      "no": "REQ-4401",
+      "date": "14 Oct 2026",
+      "taxable": "Dept: Finance Operations",
+      "gst": "Threshold: ₹5,00,000",
+      "total": "Level 2 Approval Required"
+    },
+    "mock_extract": [
+      {"label": "Initiator", "val": "AP Operations Lead"},
+      {"label": "Approver 1", "val": "Finance Manager (Approved ✓)"},
+      {"label": "Approver 2", "val": "VP Finance (Pending)"}
+    ],
+    "sync_target": "Audit Log Recorded",
+    "how_title": "Intelligent Workflow Orchestration in 4 Steps.",
+    "how_sub": "Replace messy email chains and chat approvals with automated routing, conditional logic, and audit trails.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Define workflows with conditional logic.",
+        "desc": "Set dynamic routing rules based on document type, total value, vendor category, or risk score.",
+        "tags": "Visual builder • Threshold rules",
+        "card_title": "Workflow Definition",
+        "rows": [
+          {"top": "TRIGGER", "bot": "Invoice > ₹1,00,000", "check": true},
+          {"top": "ROUTING", "bot": "Finance Head Approval", "check": true},
+          {"top": "TIMEOUT", "bot": "24h Auto-Escalation", "check": true}
+        ],
+        "status": "Logic active"
+      },
+      {
+        "num": "02",
+        "title": "Assign granular role-based permissions.",
+        "desc": "Ensure team members only review what belongs to their role, region, or spending threshold.",
+        "tags": "RBAC • Approval matrix",
+        "card_title": "Role Assignment",
+        "rows": [
+          {"top": "TIER 1", "bot": "Department Manager", "check": true},
+          {"top": "TIER 2", "bot": "Finance Controller", "check": true},
+          {"top": "TIER 3", "bot": "CFO / Director", "check": true}
+        ],
+        "status": "Permissions verified"
+      },
+      {
+        "num": "03",
+        "title": "Automate notifications & escalations.",
+        "desc": "Send actionable approval notifications via email and portal. Escalate stalled documents automatically.",
+        "tags": "Slack / Email alerts • SLA monitoring",
+        "card_title": "Notification Engine",
+        "rows": [
+          {"top": "NOTIFICATION", "bot": "Action alert sent", "check": true},
+          {"top": "REMINDER", "bot": "Sent at T+12h", "check": true},
+          {"top": "STATUS", "bot": "Decision captured", "check": true}
+        ],
+        "status": "Zero bottlenecks"
+      },
+      {
+        "num": "04",
+        "title": "Maintain tamper-evident audit trails.",
+        "desc": "Every view, edit, approval, and ERP posting is recorded with timestamps, user IDs, and digital signatures.",
+        "tags": "SOC 2 Type II • Immutable logs",
+        "card_title": "Audit & Compliance",
+        "rows": [
+          {"top": "09:15 AM", "bot": "Approved by J. Doe (Finance)", "check": true},
+          {"top": "09:16 AM", "bot": "Voucher created in ERP", "check": true},
+          {"top": "AUDIT HASH", "bot": "SHA-256 Verified", "check": true}
+        ],
+        "status": "Compliance ready"
+      }
+    ],
+    "impact_title": "Faster approvals. Complete governance.",
+    "impact": [
+      {"title": "Minutes Instead of Days", "desc": "Cut average approval turnaround from 4 days to under 30 minutes."},
+      {"title": "100% Policy Compliance", "desc": "Enforce spending thresholds and 3-way matching without exception."},
+      {"title": "Real-Time Tracking", "desc": "Know the exact status of every document across the company."},
+      {"title": "Zero Stalled Bills", "desc": "Auto-escalations prevent invoices from lingering in inboxes."}
+    ],
+    "cta_banner_title": "Build smarter document workflows across your organization.",
+    "cta_banner_lead": "See how Docsynecx turns manual approvals into automated, traceable business decisions."
+  }
+}

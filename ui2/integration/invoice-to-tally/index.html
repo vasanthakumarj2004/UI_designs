@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AI Invoice Automation for TallyPrime | Docsynecx</title>
+  <meta name="description" content="Automatically extract invoices and post verified vouchers directly into TallyPrime.">
+  <link rel="canonical" href="https://docsynecx.com/ui2/integration/invoice-to-tally/">
+  
+  <meta property="og:title" content="AI Invoice Automation for TallyPrime | Docsynecx">
+  <meta property="og:description" content="Automatically extract invoices and post verified vouchers directly into TallyPrime.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://docsynecx.com/ui2/integration/invoice-to-tally/">
+  <meta property="og:site_name" content="Docsynecx">
+  <meta property="og:image" content="https://docsynecx.com/assets2/logo.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <link rel="icon" type="image/x-icon" href="../../../favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+  
+  <link rel="stylesheet" href="../../../assets2/tokens.css">
+</head>
+<body>
+<header class="nv rn">
+  <div class="w">
+    <a class="logo" href="../../../index2.html" aria-label="Docsynecx Home">
+      <img src="../../../assets2/logo.svg" alt="Docsynecx" class="logo-img" width="120" height="34">
+    </a>
+    
+    <nav class="mn" aria-label="Main Navigation">
+      <div class="mi"><a href="../../../ui2/solutions/">Platform</a></div>
+      <div class="mi d">
+        <button type="button" class="nav-btn" aria-expanded="false" aria-haspopup="true">Products</button>
+        <div class="pn p1" role="region" aria-label="Product Dropdown">
+          <div class="pg">
+            <div>
+              <h4>Document automation</h4>
+              <a class="en" href="../../../ui2/invoice-processing/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z M14 3v5h5 M10 13h6 M10 17h6"/></svg></span>
+                <span><b>Invoice automation</b><span class="d">Extract, validate and sync invoice data.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/logistics-trade/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3z M14 10h4l3 3v3h-7 M7 19h.01 M17 19h.01"/></svg></span>
+                <span><b>Logistics and supply chain</b><span class="d">Turn shipment files into operational data.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/workflows/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h5v5H5z M14 14h5v5h-5z M10 8h4a2 2 0 0 1 2 2v4"/></svg></span>
+                <span><b>Workflow and approvals</b><span class="d">Route, approve and track every document.</span></span>
+              </a>
+            </div>
+            <div>
+              <h4>Integrations</h4>
+              <a class="en" href="../../../ui2/integration/invoice-to-tally/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18H6z M9 7h6 M9 11h2 M13 11h2 M9 15h2 M13 15h2"/></svg></span>
+                <span><b>Tally</b><span class="d">Connect invoices to TallyPrime.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/integration/zoho-books/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v14 M12 6C10 4.5 7 4 4 4v14c3 0 6 .5 8 2 2-1.5 5-2 8-2V4c-3 0-6 .5-8 2z"/></svg></span>
+                <span><b>Zoho Books</b><span class="d">Keep your accounting workflow moving.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/integration/cargowise/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z M12 12l8-4.5 M12 12v9 M12 12L4 7.5"/></svg></span>
+                <span><b>CargoWise</b><span class="d">Sync clean data into your TMS.</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="cs">
+            <span>Discover what document intelligence can do for your team.</span>
+            <a href="../../../ui2/request-demo/">Book a demo &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mi d">
+        <button type="button" class="nav-btn" aria-expanded="false" aria-haspopup="true">Solutions</button>
+        <div class="pn p2" role="region" aria-label="Solutions Dropdown">
+          <div class="pg">
+            <div>
+              <h4>By industry</h4>
+              <a class="en" href="../../../ui2/solutions/banking/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6 M5 10v8 M9 10v8 M15 10v8 M19 10v8 M3 20h18"/></svg></span>
+                <span><b>Banking</b><span class="d">Document intelligence for banking teams.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/solutions/finance/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V4 M4 20h16 M8 16v-4 M12 16V8 M16 16v-6"/></svg></span>
+                <span><b>Finance</b><span class="d">Less document handling. More visibility.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/solutions/logistics/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3z M14 10h4l3 3v3h-7 M7 19h.01 M17 19h.01"/></svg></span>
+                <span><b>Logistics</b><span class="d">Connect documents with operations.</span></span>
+              </a>
+            </div>
+            <div>
+              <h4>By use case</h4>
+              <a class="en" href="../../../ui2/solutions/accounts-payable/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z M14 3v5h5 M10 13h6 M10 17h6"/></svg></span>
+                <span><b>Accounts payable</b><span class="d">From invoice capture to ERP sync.</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="cs">
+            <span>Discover what document intelligence can do for your team.</span>
+            <a href="../../../ui2/request-demo/">Book a demo &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mi">
+        <a href="../../../ui2/pricing/">Pricing</a>
+      </div>
+
+      <div class="mi d res-mi">
+        <button type="button" class="nav-btn" aria-expanded="false" aria-haspopup="true">Resources</button>
+        <div class="pn p3" role="region" aria-label="Resources Dropdown">
+          <div class="pg">
+            <div>
+              <h4>Learn</h4>
+              <a class="en" href="../../../ui2/blog/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z M14 3v5h5 M10 13h6 M10 17h6"/></svg></span>
+                <span><b>Blog</b><span class="d">Ideas for smarter document workflows.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/help/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v14 M12 6C10 4.5 7 4 4 4v14c3 0 6 .5 8 2 2-1.5 5-2 8-2V4c-3 0-6 .5-8 2z"/></svg></span>
+                <span><b>Support docs</b><span class="d">Guides to get your workflow running.</span></span>
+              </a>
+            </div>
+            <div>
+              <h4>Company</h4>
+              <a class="en" href="../../../ui2/about/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4h9v17 M14 9h5v12 M8 8h3 M8 12h3 M8 16h3"/></svg></span>
+                <span><b>About us</b><span class="d">Get to know docsynecx.</span></span>
+              </a>
+              <a class="en" href="../../../ui2/partners/">
+                <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12l4-4 4 2 4-2 6 5-4 5-4-1-3 2-7-6z"/></svg></span>
+                <span><b>Partner company</b><span class="d">Build better workflows together.</span></span>
+              </a>
+            </div>
+          </div>
+          <div class="cs">
+            <span>Discover what document intelligence can do for your team.</span>
+            <a href="../../../ui2/request-demo/">Book a demo &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="lg2">
+      <a href="https://invoice.docsynecx.com/signin/">Log in</a>
+      <a class="b k" href="../../../ui2/request-demo/">Book Demo</a>
+    </div>
+
+    <button type="button" class="mob-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div class="mob-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+  <div class="mob-links">
+    <details class="mob-group">
+      <summary>Product</summary>
+      <div class="mob-sublinks">
+        <a href="../../../ui2/invoice-processing/">Invoice automation</a>
+        <a href="../../../ui2/logistics-trade/">Logistics and supply chain</a>
+        <a href="../../../ui2/workflows/">Workflow and approvals</a>
+        <a href="../../../ui2/integration/invoice-to-tally/">Tally Integration</a>
+        <a href="../../../ui2/integration/zoho-books/">Zoho Books Integration</a>
+        <a href="../../../ui2/integration/cargowise/">CargoWise Integration</a>
+      </div>
+    </details>
+
+    <details class="mob-group">
+      <summary>Solutions</summary>
+      <div class="mob-sublinks">
+        <a href="../../../ui2/solutions/banking/">Banking</a>
+        <a href="../../../ui2/solutions/finance/">Finance</a>
+        <a href="../../../ui2/solutions/logistics/">Logistics</a>
+        <a href="../../../ui2/solutions/accounts-payable/">Accounts payable</a>
+      </div>
+    </details>
+
+    <a class="mob-link" href="../../../ui2/pricing/">Pricing</a>
+
+    <details class="mob-group">
+      <summary>Resources</summary>
+      <div class="mob-sublinks">
+        <a href="../../../ui2/blog/">Blog</a>
+        <a href="../../../ui2/help/">Support docs</a>
+        <a href="../../../ui2/about/">About us</a>
+        <a href="../../../ui2/partners/">Partner company</a>
+      </div>
+    </details>
+
+    <div style="margin-top:20px;display:flex;flex-direction:column;gap:12px">
+      <a class="b o" href="https://invoice.docsynecx.com/signin/" style="justify-content:center">Log in</a>
+      <a class="b p" href="../../../ui2/request-demo/" style="justify-content:center">Book a demo &rarr;</a>
+    </div>
+  </div>
+</div>
+<main>
+  <!-- Route Hero -->
+  <section class="rh">
+    <div class="w">
+      <span class="tg" style="background:none;border:none;padding:0;font-size:15px">TallyPrime Integration</span>
+      <h1>Automate Invoice Entry into Tally.<br><span class="bl">Clean Data, Zero Retyping.</span></h1>
+      <p class="lead">Automatically extract invoices and post verified vouchers directly into TallyPrime.</p>
+      <div class="cta">
+        <a class="b p" href="../../../ui2/request-demo/">Book a Demo &rarr;</a>
+        <a class="b o" href="#how">See How it Works</a>
+      </div>
+      <div class="hp">
+        <div class="wc">
+          <div class="hd">Document workspace</div>
+          <div style="color:var(--muted);font-size:15px;margin:-4px 0 18px">Tally_Voucher_INV-88213.xml &middot; Tally XML / API</div>
+          <div class="g2c">
+            <div class="card">
+              <b style="font-size:24px;letter-spacing:-.01em">TALLYPRIME INTEGRATION</b>
+              <div class="dr"><span>Reference / ID</span><b style="color:var(--navy)">VOUCHER-INVO-99</b></div>
+              <div class="dr"><span>Issue date</span><b style="color:var(--navy)">14 Oct 2026</b></div>
+              <div class="dr"><span>Primary spec</span><b style="color:var(--navy)">Mapping: 100% Resolved</b></div>
+              <div class="dr"><span>Status / Tax</span><b style="color:var(--navy)">API Handoff: Ready</b></div>
+              <div class="hl fr" style="margin-top:14px"><b>TOTAL VALUE</b><b style="font-size:18px">Auto-Sync Enabled ✓</b></div>
+            </div>
+            <div class="card">
+              <b style="font-size:20px">Extracted fields</b><br>
+              <span class="vc">&#10003; Fields validated</span>
+              <div class="fr" style="padding:9px 0;border-bottom:1px solid var(--line)"><span><small>Voucher Type</small><b>Purchase Entry</b></span><span class="tk">&#10003;</span></div><div class="fr" style="padding:9px 0;border-bottom:1px solid var(--line)"><span><small>Ledger</small><b>Synecx Partner Supplier</b></span><span class="tk">&#10003;</span></div><div class="fr" style="padding:9px 0;border-bottom:1px solid var(--line)"><span><small>State Tax</small><b>9% CGST + 9% SGST</b></span><span class="tk">&#10003;</span></div>
+              <div class="sy">&#10003; Posted to TallyPrime (Port 9000)</div>
+            </div>
+          </div>
+        </div>
+        <div class="cap">Illustrative workflow &middot; Capture &rarr; Extract &rarr; Validate &rarr; Sync</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works (4 Steps) -->
+  <section id="how">
+    <div class="w">
+      <span class="ey">How it works</span>
+      <h2>From PDF Invoice to Tally Voucher in 4 Steps.</h2>
+      <p class="sub">Capture documents, validate accounts, resolve exceptions, and push directly into your software.</p>
+      <div class="st">
+  <div class="tx">
+    <span class="n">01</span>
+    <h3>Collect invoices. Not manual tasks.</h3>
+    <p>Bring vendor invoices together from email, uploads or your API. Keep the source document attached to every record.</p>
+    <div class="tgs">Email inbox • PDF upload • API</div>
+  </div>
+  <div class="pl">
+    <div class="mc">
+      <h4>Invoice inbox</h4>
+      <div class="mr"><small>AP@YOURCOMPANY.COM</small><b>Email connected</b><i class="">&#10003;</i></div><div class="mr"><small>INVOICE_INV-88213.PDF</small><b>Received</b><i class="">&#10003;</i></div><div class="mr"><small>SOURCE DOCUMENT</small><b>Ready to extract</b><i class="">&#10003;</i></div>
+      <div class="stt2">&#10003; Source document captured</div>
+    </div>
+  </div>
+</div>
+<div class="st rev">
+  <div class="tx">
+    <span class="n">02</span>
+    <h3>Turn every invoice into usable data.</h3>
+    <p>AI extracts vendors, GSTIN, line items, tax and totals—even when your suppliers use different invoice layouts.</p>
+    <div class="tgs">Vendor details • Tax fields • Line items</div>
+  </div>
+  <div class="pl">
+    <div class="mc">
+      <h4>AI extraction</h4>
+      <div class="mr"><small>VENDOR</small><b>Acme Traders Pvt Ltd</b><i class="">&#10003;</i></div><div class="mr"><small>GSTIN</small><b>29ABCDE1234F1Z5</b><i class="">&#10003;</i></div><div class="mr"><small>LINE ITEMS</small><b>7 items extracted</b><i class="">&#10003;</i></div>
+      <div class="stt2">&#10003; Extraction complete</div>
+    </div>
+  </div>
+</div>
+<div class="st">
+  <div class="tx">
+    <span class="n">03</span>
+    <h3>Review the exception. Not every field.</h3>
+    <p>Validate GST, check duplicates and match purchase orders. Route exceptions to a reviewer before records move downstream.</p>
+    <div class="tgs">GST validation • Duplicate checks • PO matching</div>
+  </div>
+  <div class="pl">
+    <div class="mc">
+      <h4>Validation review</h4>
+      <div class="mr"><small>GST FORMAT</small><b>Passed</b><i class="">&#10003;</i></div><div class="mr"><small>DUPLICATE INVOICE</small><b>No match found</b><i class="">&#10003;</i></div><div class="mr"><small>PO-2026-0418</small><b>Review requested</b><i class="o">&#9675;</i></div>
+      <div class="stt2 w2">&#9675; Exception sent for review</div>
+    </div>
+  </div>
+</div>
+<div class="st rev">
+  <div class="tx">
+    <span class="n">04</span>
+    <h3>Send clean records to your accounts.</h3>
+    <p>Sync validated invoices to Tally, Zoho Books or your ERP. Track the record from capture through posting.</p>
+    <div class="tgs">Tally • Zoho Books • SAP / ERP</div>
+  </div>
+  <div class="pl">
+    <div class="mc">
+      <h4>Accounting sync</h4>
+      <div class="mr"><small>INV-88213</small><b>Validated</b><i class="">&#10003;</i></div><div class="mr"><small>DESTINATION</small><b>Tally</b><i class="">&#10003;</i></div><div class="mr"><small>RECORD STATUS</small><b>Posted successfully</b><i class="">&#10003;</i></div>
+      <div class="stt2">&#10003; Handoff complete · Status updated</div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <!-- Business Impact -->
+  <section class="band">
+    <div class="w">
+      <span class="ey">Business impact</span>
+      <h2>Why Teams Choose Docsynecx for TallyPrime Integration</h2>
+      <div class="im">
+        <div><b>Seamless Ledger Mapping</b><span>Match supplier names and tax categories automatically to your Tally chart of accounts.</span></div>
+<div><b>100% Tax Accuracy</b><span>Validate CGST, SGST, IGST and round-off figures prior to voucher generation.</span></div>
+<div><b>Audit-Ready Logs</b><span>Keep the original PDF invoice attached to each voucher for auditor verification.</span></div>
+<div><b>Batch Voucher Creation</b><span>Post dozens of invoices with a single approval action.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Next Step -->
+  <section>
+    <div class="w">
+      <span class="ey">Your next step</span>
+      <h2>Start with your documents.</h2>
+      <p class="sub">Explore the fit with a focused pilot built around the way your team works.</p>
+      <div class="c3">
+        <div class="card">
+          <h3>01 &nbsp;Book a demo</h3>
+          <p>Bring sample documents. We'll walk through your process, fields, and downstream system handoffs.</p>
+        </div>
+        <div class="card">
+          <h3>02 &nbsp;Test a workflow</h3>
+          <p>See extraction and validation on your own files. Explore rules, exceptions, and approval thresholds.</p>
+        </div>
+        <div class="card">
+          <h3>03 &nbsp;Roll out with confidence</h3>
+          <p>Agree on fields, user roles, and integrations before expanding. Keep your team in full control.</p>
+        </div>
+      </div>
+      <div style="margin-top:28px">
+        <a class="b p sm" href="../../../ui2/request-demo/">Book a Demo &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security and Control -->
+  <section class="band">
+    <div class="w">
+      <span class="ey">Security and control</span>
+      <h2>Automation with people in control.</h2>
+      <p class="sub">Keep access, approvals and document progress aligned with how your team works.</p>
+      <div class="sc">
+        <div>
+          <div class="it">
+            <b>Role-Based Control</b>
+            <span>Give reviewers and approvers access that fits their responsibilities and permissions.</span>
+          </div>
+          <div class="it">
+            <b>Multi-Level Approvals</b>
+            <span>Keep decisions with the right people before data moves downstream to accounting.</span>
+          </div>
+          <div class="it">
+            <b>Real-Time Tracking</b>
+            <span>Follow document status, review progress, and system handoffs in one centralized flow.</span>
+          </div>
+        </div>
+        <div class="card">
+          <h4 style="margin:0 0 16px;font-size:18px">Document activity &middot; Live Audit</h4>
+          <div class="ar"><span>09:12</span><b>Document captured<small>Email inbox / API</small></b></div>
+          <div class="ar"><span>09:13</span><b>Fields validated<small>Rule and anomaly checks passed</small></b></div>
+          <div class="ar"><span>09:18</span><b>Review completed<small>Assigned reviewer verified</small></b></div>
+          <div class="ar"><span>09:19</span><b>Synchronized<small>Downstream system posting complete</small></b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- More with Docsynecx -->
+  <section>
+    <div class="w">
+      <span class="ey">More with Docsynecx</span>
+      <h2>Connect the rest of your document work.</h2>
+      <p class="sub">Bring finance, logistics, and operations together on one unified automation platform.</p>
+      <div class="c3">
+        <div class="card">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l5 5v13H7z M14 3v5h5 M10 13h6 M10 17h6"/></svg></span>
+          <h3 style="margin-top:16px">Invoice automation</h3>
+          <p>Extract invoice data, validate GST and line items, and sync directly with ERPs.</p>
+          <a class="l" href="../../../ui2/invoice-processing/">Explore product &rarr;</a>
+        </div>
+        <div class="card">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3z M14 10h4l3 3v3h-7 M7 19h.01 M17 19h.01"/></svg></span>
+          <h3 style="margin-top:16px">Logistics and supply chain</h3>
+          <p>Process shipping bills, customs documents, and automate TMS data intake.</p>
+          <a class="l" href="../../../ui2/logistics-trade/">Explore product &rarr;</a>
+        </div>
+        <div class="card">
+          <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h5v5H5z M14 14h5v5h-5z M10 8h4a2 2 0 0 1 2 2v4"/></svg></span>
+          <h3 style="margin-top:16px">Workflow and approvals</h3>
+          <p>Route, approve and track documents with multi-level hierarchies.</p>
+          <a class="l" href="../../../ui2/workflows/">Explore product &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing Banner -->
+  <section>
+    <div class="w">
+      <div class="bn">
+        <div>
+          <h2>Ready to integrate with TallyPrime Integration?</h2>
+          <p>See a live demonstration on your own invoices and software setup.</p>
+        </div>
+        <a class="b p" href="../../../ui2/request-demo/">Book a demo &rarr;</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="ft">
+  <div class="w">
+    <div class="gr">
+      <div>
+        <span class="lgb">
+          <a class="logo" href="../../../index2.html" aria-label="Docsynecx Home">
+            <img src="../../../assets2/logo.svg" alt="Docsynecx" class="logo-img" width="130" height="38">
+          </a>
+        </span>
+        <p>The AI-Powered Document Automation Platform for Intelligent Processing, Data Extraction, and Business Workflows</p>
+      </div>
+
+      <div>
+        <h5>Products</h5>
+        <a href="../../../ui2/invoice-processing/">Invoice automation</a>
+        <a href="../../../ui2/logistics-trade/">Logistics and supply chain</a>
+        <a href="../../../ui2/workflows/">Workflow and approvals</a>
+        <a href="../../../ui2/solutions/">Platform</a>
+      </div>
+
+      <div>
+        <h5>Solutions</h5>
+        <a href="../../../ui2/solutions/banking/">Banking</a>
+        <a href="../../../ui2/solutions/finance/">Finance</a>
+        <a href="../../../ui2/solutions/logistics/">Logistics</a>
+        <a href="../../../ui2/solutions/accounts-payable/">Accounts payable</a>
+      </div>
+
+      <div>
+        <h5>Resources</h5>
+        <a href="../../../ui2/blog/">Blog</a>
+        <a href="../../../ui2/help/">Support docs</a>
+        <a href="../../../ui2/pricing/">Pricing</a>
+      </div>
+
+      <div>
+        <h5>Company</h5>
+        <a href="../../../ui2/about/">About us</a>
+        <a href="../../../ui2/partners/">Partner company</a>
+        <a href="../../../ui2/contact/">Contact</a>
+      </div>
+    </div>
+
+    <div class="bt">
+      <span>&copy; 2026 SynecxAI Labs Private Limited. All rights reserved.</span>
+      <span>
+        <a href="../../../ui2/privacy-policy/">Privacy Policy</a>
+        <a href="../../../ui2/terms-of-service/">Terms of Service</a>
+      </span>
+    </div>
+  </div>
+</footer>
+<script src="../../../assets2/site.js"></script>
+</body>
+</html>
